@@ -1,51 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Motion Beats – Tilt-to-DJ</title>
-    <link href="styles.css" rel="stylesheet" />
-  </head>
-  <body class="bg-gradient-to-br from-[#0b1120] to-[#130c2a] min-h-screen flex flex-col items-center justify-center font-sans">
-    <header class="mt-8 mb-6">
-      <h1 class="text-4xl md:text-5xl font-bold neon-glow text-center tracking-tight">Motion Beats</h1>
-      <p class="text-lg md:text-xl mt-2 text-neon-cyan text-center">Tilt-to-DJ • No buttons. Just move.</p>
-    </header>
-    <!-- Prompt/Hints -->
-    <section id="promptArea" class="mb-4 px-4 py-3 rounded-xl bg-glass shadow-neon flex items-center justify-center text-lg min-h-[40px]">
-      <span id="promptText">Welcome! Get ready to craft your beat.</span>
-    </section>
-    
-    <!-- Tutorial Hints/Popup Overlay -->
-    <div id="hintOverlay" class="hidden fixed top-0 left-0 w-full h-full flex items-center justify-center bg-[#14091a]/70 z-30">
-      <div class="rounded-3xl bg-glass px-8 py-6 shadow-neon-neon flex flex-col items-center">
-        <div id="hintAnim" class="mb-4 w-28 h-28"></div>
-        <div id="hintText" class="text-xl font-medium text-center">Tilt your device forward…</div>
-        <button id="skipHintBtn" class="mt-6 px-6 py-2 rounded-xl neon-btn text-base">Skip</button>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Browser Sensor Dashboard</title>
+  <meta name="description" content="A real-time dashboard for motion and environmental browser sensors using the Generic Sensor API and fallbacks.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gradient-to-tr from-blue-100 to-indigo-200 min-h-screen py-8 px-4">
+  <main class="max-w-3xl mx-auto space-y-12">
+    <header class="mb-10 text-center">
+      <h1 class="text-4xl font-bold mb-2 neumorphism-soft text-indigo-700">Live Browser Sensor Dashboard</h1>
+      <p class="text-lg text-gray-700 font-medium max-w-2xl mx-auto neumorphism-soft">Explore real-time readings from your device's motion and environmental sensors. Move, tilt, rotate or shine a light on your device to see values update instantly!</p>
+      <div class="flex items-center justify-center mt-4 space-x-4">
+        <span class="px-3 py-1 bg-indigo-100 rounded neumorphism-inset text-xs text-indigo-700">No Backend</span>
+        <span class="px-3 py-1 bg-blue-100 rounded neumorphism-inset text-xs text-blue-700">All Local & Secure</span>
+        <span class="px-3 py-1 bg-emerald-100 rounded neumorphism-inset text-xs text-emerald-700">Works Offline</span>
       </div>
-    </div>
-    
-    <!-- Visualizer Canvas -->
-    <main class="relative flex flex-col items-center mt-2 w-full flex-1">
-      <canvas id="visualizer" class="rounded-3xl mx-auto shadow-neon block bg-[#18122a]/95" width="320" height="320"></canvas>
+    </header>
+    <section class="space-y-10">
 
-      <!-- Count Down, centered in corner top-right -->
-      <div id="countdown" class="absolute top-6 right-8 text-lg font-mono neon-glow hidden"></div>
-      
-      <!-- Prompt for recording phase -->
-      <div id="recordPrompt" class="absolute bottom-8 left-1/2 -translate-x-1/2 text-base bg-glass px-5 py-2 rounded-full shadow-neon-neon hidden">Jam for 30 seconds—show your best mix!</div>
-    </main>
+      <!-- Motion Sensors Group -->
+      <div>
+        <h2 class="text-2xl font-semibold mb-3 text-indigo-800">Motion Sensors</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+          <!-- Accelerometer -->
+          <div class="sensor-block neumorphism-soft" id="accelerometer-block">
+            <div class="sensor-header">
+              <span class="sensor-icon">🏃‍♂️</span>
+              <span class="sensor-title">Accelerometer</span>
+            </div>
+            <dl class="sensor-data">
+              <dt>X</dt><dd id="acc-x">-</dd>
+              <dt>Y</dt><dd id="acc-y">-</dd>
+              <dt>Z</dt><dd id="acc-z">-</dd>
+            </dl>
+            <div class="sensor-status" id="acc-status"></div>
+          </div>
+          <!-- Gyroscope -->
+          <div class="sensor-block neumorphism-soft" id="gyroscope-block">
+            <div class="sensor-header">
+              <span class="sensor-icon">🌀</span>
+              <span class="sensor-title">Gyroscope</span>
+            </div>
+            <dl class="sensor-data">
+              <dt>Alpha</dt><dd id="gyro-x">-</dd>
+              <dt>Beta</dt><dd id="gyro-y">-</dd>
+              <dt>Gamma</dt><dd id="gyro-z">-</dd>
+            </dl>
+            <div class="sensor-status" id="gyro-status"></div>
+          </div>
+          <!-- DeviceMotion fallback -->
+          <div class="sensor-block neumorphism-soft md:col-span-2" id="devicemotion-block">
+            <div class="sensor-header">
+              <span class="sensor-icon">📱</span>
+              <span class="sensor-title">DeviceMotion (Fallback)</span>
+            </div>
+            <dl class="sensor-data">
+              <dt>Accel X</dt><dd id="dm-ax">-</dd>
+              <dt>Accel Y</dt><dd id="dm-ay">-</dd>
+              <dt>Accel Z</dt><dd id="dm-az">-</dd>
+              <dt>RotRate Alpha</dt><dd id="dm-rx">-</dd>
+              <dt>RotRate Beta</dt><dd id="dm-ry">-</dd>
+              <dt>RotRate Gamma</dt><dd id="dm-rz">-</dd>
+            </dl>
+            <div class="sensor-status" id="dm-status"></div>
+          </div>
+          <!-- DeviceOrientation fallback -->
+          <div class="sensor-block neumorphism-soft md:col-span-2" id="deviceorientation-block">
+            <div class="sensor-header">
+              <span class="sensor-icon">🧭</span>
+              <span class="sensor-title">DeviceOrientation (Fallback)</span>
+            </div>
+            <dl class="sensor-data">
+              <dt>Alpha</dt><dd id="do-alpha">-</dd>
+              <dt>Beta</dt><dd id="do-beta">-</dd>
+              <dt>Gamma</dt><dd id="do-gamma">-</dd>
+              <dt>Absolute</dt><dd id="do-abs">-</dd>
+            </dl>
+            <div class="sensor-status" id="do-status"></div>
+          </div>
+        </div>
+      </div>
 
-    <!-- Download button and replay set -->
-    <section id="shareSection" class="w-full flex flex-col items-center mt-8 hidden">
-      <button id="downloadBtn" class="neon-btn px-7 py-3 text-lg rounded-2xl">Download your loop</button>
-      <button id="replayBtn" class="neon-btn-outline px-7 py-2 mt-4 rounded-2xl">Replay Your Last Set</button>
+      <!-- Environmental Sensors Group -->
+      <div>
+        <h2 class="text-2xl font-semibold mb-3 text-indigo-800">Environmental Sensors</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+          <!-- Ambient Light -->
+          <div class="sensor-block neumorphism-soft" id="ambient-light-block">
+            <div class="sensor-header">
+              <span class="sensor-icon">💡</span>
+              <span class="sensor-title">Ambient Light Sensor</span>
+            </div>
+            <div class="text-3xl text-yellow-600 font-bold mb-2">
+              <span id="light-level">-</span><span class="text-base ml-2">lux</span>
+            </div>
+            <div class="sensor-status" id="light-status"></div>
+          </div>
+          <!-- Magnetometer -->
+          <div class="sensor-block neumorphism-soft" id="magnetometer-block">
+            <div class="sensor-header">
+              <span class="sensor-icon">🧲</span>
+              <span class="sensor-title">Magnetometer</span>
+            </div>
+            <dl class="sensor-data">
+              <dt>X</dt><dd id="mag-x">-</dd>
+              <dt>Y</dt><dd id="mag-y">-</dd>
+              <dt>Z</dt><dd id="mag-z">-</dd>
+              <dt>Strength</dt><dd id="mag-strength">-</dd>
+            </dl>
+            <div class="sensor-status" id="mag-status"></div>
+          </div>
+        </div>
+      </div>
+
     </section>
 
-    <footer class="py-4 text-center text-xs text-[#89ffe6]/60">
-      <span>All audio generated live, nothing external loaded. &copy; Motion Beats 2024.</span>
+    <footer class="w-full text-center text-sm text-gray-500 mt-20 pt-8 border-t border-gray-300">
+      <div class="mb-4 italic text-md">Move, tilt, or shine a light on your device.<br>See readings update live. <span class="ml-2">🌐🔋👁️</span></div>
+      <div>Project by <span class="font-medium">Open Source Community</span> &mdash; <span class="underline">No data leaves your browser.</span></div>
     </footer>
-
-    <script src="script.js"></script>
-  </body>
+  </main>
+  <script src="script.js"></script>
+</body>
 </html>

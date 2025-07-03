@@ -61,3 +61,14 @@ class GPTClient:
         structured_output = response.output_parsed
         return structured_output
 
+    def chat_response(self, prompt, add_message=True):
+
+        if add_message:
+            self.add_message(prompt)
+            completion = self.client.chat.completions.create(
+                model=self.model,
+                messages=self.messages
+            )
+
+            return completion.choices[0].message.content
+
