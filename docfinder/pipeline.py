@@ -1,20 +1,21 @@
 from dotenv import load_dotenv
 from openai import OpenAI
 import os
+from pydantic import BaseModel
+from .gpt_connect.client import GPTClient
 
 
 load_dotenv()  
-client = OpenAI()
 
+gpt = GPTClient()
 
-completion = client.chat.completions.create(
-    model="o4-mini",
-    messages=[
-        {
-            "role": "user",
-            "content": "Write a one-sentence bedtime story about a unicorn."
-        }
-    ]
-)
+fields = {
+    'html': str,
+    'js': str
+}
 
-print(completion.choices[0].message.content)
+##create pydantic model
+new_model = gpt.create_pydantic_model('code-output', fields)
+output = gpt.structured_response(input("What do you want us to create?"), new_model)
+print(output.html)
+print(output.js)
