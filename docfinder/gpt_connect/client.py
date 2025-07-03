@@ -13,9 +13,10 @@ class GPTClient:
     Expects OPENAI_API_KEY to be set in the environment.
     Allows a manual override only if the environment is unset.
     """
-    def __init__(self, api_key: Optional[str] = None):
+    def __init__(self, api_key: Optional[str] = None, model: str = 'o4-mini'):
         self.client = OpenAI() if api_key is None else OpenAI(api_key=api_key)
-        self.messages = [{"role": "system", "content": "Extract the event information."}]
+        self.model = model
+        self.messages = [{"role": "system", "content": "You are the worlds most in-depth web developer, knowing every bit of detailed css, html and javascript"}]
 
 
     def add_message(self, prompt):
@@ -26,7 +27,7 @@ class GPTClient:
             }
             self.messages.append(new_message)
             return True
-        finally:
+        except Exception:
             return False
 
     def create_pydantic_model(self, 
@@ -50,7 +51,7 @@ class GPTClient:
     def structured_response(self, prompt, pydantic_model):
         self.add_message(prompt)
         response = self.client.responses.parse(
-        model="gpt-4o-2024-08-06",
+        model=self.model,
         input=self.messages,
         text_format=pydantic_model,
     )
