@@ -13,11 +13,13 @@ class GPTClient:
     Expects OPENAI_API_KEY to be set in the environment.
     Allows a manual override only if the environment is unset.
     """
-    def __init__(self, api_key: Optional[str] = None, model: str = 'o4-mini'):
+    def __init__(self, api_key: Optional[str] = None, messages: Optional[str] = None, model: str = 'o4-mini'):
         self.client = OpenAI() if api_key is None else OpenAI(api_key=api_key)
         self.model = model
-        self.messages = [{"role": "system", "content": "You are the worlds most in-depth web developer, knowing every bit of detailed css, html and javascript"}]
-
+        self.messages = [
+                            {"role": "system", "content": messages} if messages else
+                            {"role": "system", "content": "You are the worlds most in-depth web developer, knowing every bit of detailed css, html and javascript"}
+                        ]
 
     def add_message(self, prompt):
         try:

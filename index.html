@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Motion Beats – Tilt-to-DJ</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body class="bg-gradient-to-br from-[#0b1120] to-[#130c2a] min-h-screen flex flex-col items-center justify-center font-sans">
+    <header class="mt-8 mb-6">
+      <h1 class="text-4xl md:text-5xl font-bold neon-glow text-center tracking-tight">Motion Beats</h1>
+      <p class="text-lg md:text-xl mt-2 text-neon-cyan text-center">Tilt-to-DJ • No buttons. Just move.</p>
+    </header>
+    <!-- Prompt/Hints -->
+    <section id="promptArea" class="mb-4 px-4 py-3 rounded-xl bg-glass shadow-neon flex items-center justify-center text-lg min-h-[40px]">
+      <span id="promptText">Welcome! Get ready to craft your beat.</span>
+    </section>
+    
+    <!-- Tutorial Hints/Popup Overlay -->
+    <div id="hintOverlay" class="hidden fixed top-0 left-0 w-full h-full flex items-center justify-center bg-[#14091a]/70 z-30">
+      <div class="rounded-3xl bg-glass px-8 py-6 shadow-neon-neon flex flex-col items-center">
+        <div id="hintAnim" class="mb-4 w-28 h-28"></div>
+        <div id="hintText" class="text-xl font-medium text-center">Tilt your device forward…</div>
+        <button id="skipHintBtn" class="mt-6 px-6 py-2 rounded-xl neon-btn text-base">Skip</button>
+      </div>
+    </div>
+    
+    <!-- Visualizer Canvas -->
+    <main class="relative flex flex-col items-center mt-2 w-full flex-1">
+      <canvas id="visualizer" class="rounded-3xl mx-auto shadow-neon block bg-[#18122a]/95" width="320" height="320"></canvas>
+
+      <!-- Count Down, centered in corner top-right -->
+      <div id="countdown" class="absolute top-6 right-8 text-lg font-mono neon-glow hidden"></div>
+      
+      <!-- Prompt for recording phase -->
+      <div id="recordPrompt" class="absolute bottom-8 left-1/2 -translate-x-1/2 text-base bg-glass px-5 py-2 rounded-full shadow-neon-neon hidden">Jam for 30 seconds—show your best mix!</div>
+    </main>
+
+    <!-- Download button and replay set -->
+    <section id="shareSection" class="w-full flex flex-col items-center mt-8 hidden">
+      <button id="downloadBtn" class="neon-btn px-7 py-3 text-lg rounded-2xl">Download your loop</button>
+      <button id="replayBtn" class="neon-btn-outline px-7 py-2 mt-4 rounded-2xl">Replay Your Last Set</button>
+    </section>
+
+    <footer class="py-4 text-center text-xs text-[#89ffe6]/60">
+      <span>All audio generated live, nothing external loaded. &copy; Motion Beats 2024.</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

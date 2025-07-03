@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Browser Sensor Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <h1>📌 Live Browser Sensor Dashboard</h1>
+    <p class="desc">Visualize real-time motion and environment sensor values right in your browser.</p>
+
+    <section id="sensors">
+      <div class="sensor-block" id="accelerometer-block">
+        <h2>Accelerometer</h2>
+        <div class="sensor-status" id="accelerometer-status">Checking support…</div>
+        <div class="sensor-readings" id="accelerometer-readings">
+          <span>X: <span id="acc-x">--</span> m/s²</span>
+          <span>Y: <span id="acc-y">--</span> m/s²</span>
+          <span>Z: <span id="acc-z">--</span> m/s²</span>
+        </div>
+      </div>
+      <div class="sensor-block" id="gyroscope-block">
+        <h2>Gyroscope</h2>
+        <div class="sensor-status" id="gyroscope-status">Checking support…</div>
+        <div class="sensor-readings" id="gyroscope-readings">
+          <span>X: <span id="gyro-x">--</span> °/s</span>
+          <span>Y: <span id="gyro-y">--</span> °/s</span>
+          <span>Z: <span id="gyro-z">--</span> °/s</span>
+        </div>
+      </div>
+      <div class="sensor-block" id="magnetometer-block">
+        <h2>Magnetometer</h2>
+        <div class="sensor-status" id="magnetometer-status">Checking support…</div>
+        <div class="sensor-readings" id="magnetometer-readings">
+          <span>X: <span id="mag-x">--</span> µT</span>
+          <span>Y: <span id="mag-y">--</span> µT</span>
+          <span>Z: <span id="mag-z">--</span> µT</span>
+        </div>
+      </div>
+      <div class="sensor-block" id="ambientlight-block">
+        <h2>Ambient Light</h2>
+        <div class="sensor-status" id="ambientlight-status">Checking support…</div>
+        <div class="sensor-readings" id="ambientlight-readings">
+          <span>Illuminance: <span id="light-lux">--</span> lux</span>
+        </div>
+      </div>
+      <div class="sensor-block" id="devicemotion-block">
+        <h2>Device Motion (Fallback)</h2>
+        <div class="sensor-status" id="devicemotion-status">Checking support…</div>
+        <div class="sensor-readings" id="devicemotion-readings">
+          <span>Accel X: <span id="dm-ax">--</span> m/s²</span>
+          <span>Accel Y: <span id="dm-ay">--</span> m/s²</span>
+          <span>Accel Z: <span id="dm-az">--</span> m/s²</span>
+          <span>RotRate α: <span id="dm-alpha">--</span>°/s</span>
+          <span>RotRate β: <span id="dm-beta">--</span>°/s</span>
+          <span>RotRate γ: <span id="dm-gamma">--</span>°/s</span>
+        </div>
+      </div>
+      <div class="sensor-block" id="deviceorientation-block">
+        <h2>Device Orientation (Fallback)</h2>
+        <div class="sensor-status" id="deviceorientation-status">Checking support…</div>
+        <div class="sensor-readings" id="deviceorientation-readings">
+          <span>Alpha (compass): <span id="dorient-alpha">--</span>°</span>
+          <span>Beta (tilt): <span id="dorient-beta">--</span>°</span>
+          <span>Gamma (tilt): <span id="dorient-gamma">--</span>°</span>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <small>All data lives <strong>in your browser</strong>. Want to learn more? <a href="https://developer.mozilla.org/en-US/docs/Web/API/Sensor_APIs" target="_blank">MDN Sensor APIs</a>.</small>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

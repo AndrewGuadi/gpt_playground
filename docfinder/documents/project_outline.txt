@@ -1,0 +1,73 @@
+📌 Project Concept
+“Motion Beats – Tilt-to-DJ”
+
+🎯 What It Is
+A single-page, mobile-first web studio that lets anyone craft a 60-second loop of electronic music just by moving their phone.
+No buttons, no menus—your wrist is the mixer.
+
+🧩 Core Mechanics
+Sensor	How it’s used	Effect in the studio
+Accelerometer	Gentle tilt forward / back	Cross-fade between two drum patterns (chill → energetic)
+Accelerometer	Tilt left / right	Adjust global filter (mellow → bright)
+Gyroscope	Slow clockwise twist	Bring a bass-line layer in (volume 0 → 100 %)
+Gyroscope	Slow counter-clockwise twist	Bring a synth-pad layer in
+Quick Shake	One-shot FX burst	Adds a randomized percussion fill
+DeviceOrientation (fallback)	If gyro unsupported	Same layer-in/out via device heading
+
+⭐ Everything is smooth-faded so the loop never breaks time.
+⭐ All audio is generated in-browser via the Web Audio API; nothing external is loaded.
+
+⏳ Keeping Users Engaged ≥ 5 Minutes
+Interactive Tutorial (≈ 1 min)
+
+Animated overlay shows each motion & resultant sound.
+
+User copies the move; visual confirm pops (“Nice filter sweep!”).
+
+Layer-Building Phase (≈ 2 min)
+
+Loop starts as a bare kick drum.
+
+Prompts appear (“Tilt right to brighten the beat…”) until all four layers unlocked.
+
+Performance Phase (open-ended)
+
+UI hides; full-screen pulse synched to BPM.
+
+Users jam: tilting, twisting, shaking to sculpt their personal groove.
+
+A countdown in corner invites them to record a 30-second “set”; auto-replays it when done.
+
+Most people play a few takes—easily 3-6 minutes total.
+
+Share-or-Save (optional, still offline)
+
+Generates a tiny Base64 WAV blob; “Download your loop” button (no server).
+
+Encourages re-tries to improve mix.
+
+🖼️ Look & Feel
+index.html – header, minimal prompt area, hidden hint overlay, visualizer canvas.
+
+styles.css – dark “club” theme, neon accent colors, fluid 100 vh layout.
+
+script.js –
+
+Sensor permission + polyfills
+
+Web Audio graph (4 sampler nodes + master filter)
+
+Motion → parameter mapping at 60 fps
+
+Tutorial state-machine & simple recorder
+
+No images, no libraries; just ~200 lines of JS.
+
+⚙️ Why It Works
+Immediate reward loop: every tiny wrist move changes the sound.
+
+Creative ownership: users leave with a personalized track.
+
+Sensor novelty: feels like waving a mini theremin/DJ controller.
+
+Single page, offline: loads fast, plays anywhere—perfect demo piece.
