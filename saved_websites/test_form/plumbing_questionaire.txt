@@ -1,0 +1,314 @@
+Client Questionnaire Example – Central PA Plumbing Pros
+Business Name:
+Central PA Plumbing Pros
+
+Project Introduction
+Primary business:
+Small, family-run plumbing business serving Harrisburg, Camp Hill, and Mechanicsburg, PA.
+
+Primary website goals:
+
+Lead generation (quote requests, phone calls)
+
+Online booking for service appointments
+
+Increase brand awareness locally
+
+Key stakeholders:
+
+Mike Williams (Owner, decision-maker, Central PA Plumbing Pros)
+
+Sarah Williams (Office Manager, Central PA Plumbing Pros)
+
+Joe Lopez (Lead plumber, Central PA Plumbing Pros)
+
+Required services/features:
+
+Service listing pages (repairs, installs, emergencies)
+
+Online booking form
+
+Emergency phone button
+
+Service area map
+
+Customer reviews/testimonials
+
+Desired launch timeline:
+
+8 weeks from project start
+
+Customer Personas
+Persona A:
+
+Name: John Miller
+
+Demographics: 43, Male, Harrisburg, Homeowner
+
+Occupation: IT manager
+
+Goals: Fast, no-hassle emergency repairs
+
+Pain points: Scheduling, trust, clear pricing
+
+Online behavior: Google/local search, Yelp reviews, mobile device
+
+Persona B:
+
+Name: Lisa Tran
+
+Demographics: 29, Female, Camp Hill, Renter
+
+Occupation: Nurse
+
+Goals: Reliable maintenance, flexible hours
+
+Pain points: Past no-shows, uncertainty about cost
+
+Online behavior: Searches “plumber near me,” prefers mobile, texts
+
+Persona C:
+
+Name: Karen Rodriguez
+
+Demographics: 38, Female, Mechanicsburg, Small business owner
+
+Occupation: Salon owner
+
+Goals: Commercial plumbing, quick response
+
+Pain points: Business downtime, lack of after-hours support
+
+Online behavior: Seeks referrals, Facebook groups
+
+Persona D:
+
+Name: Mark Peterson
+
+Demographics: 67, Male, Enola, Retired homeowner
+
+Occupation: Retired teacher
+
+Goals: Preventative maintenance, easy scheduling
+
+Pain points: Not tech-savvy, needs guidance
+
+Online behavior: Uses desktop, calls rather than books online
+
+Customer Journey Maps (For each persona, brief summary)
+Awareness: Google search, word-of-mouth, yard signs, local Facebook groups
+
+Consideration: Checks reviews, verifies licensing, compares services/prices
+
+Decision: Sees positive testimonials, easy booking, clear pricing
+
+Onboarding: Confirmation email/text, intro to assigned plumber, time window
+
+Retention: Reminder emails for maintenance, loyalty discounts
+
+Advocacy: “Leave a review” prompt after service, referral bonus
+
+Sitemap
+Home
+
+About
+
+Our Team
+
+Licenses & Insurance
+
+Services
+
+Emergency Repairs
+
+Installations
+
+Maintenance
+
+Reviews
+
+Contact
+
+Book Appointment
+
+Request Quote
+
+Service Area Map
+
+FAQs
+
+Blog
+
+Deliverables
+Completed:
+
+Initial project brief
+
+Logo (Central PA Plumbing Pros)
+
+Outstanding:
+
+Content (about, services)
+
+All wireframes
+
+Booking workflow
+
+Blockers:
+
+Need high-res team photos
+
+Need full list of service areas
+
+Wireframes
+Home:
+Hero (call now button), 3-column services, “Why Choose Central PA Plumbing Pros”, customer reviews, footer.
+
+Service/Booking page:
+List of services, “Book Now” form, emergency contact sidebar.
+
+Contact/Quote:
+Simple form (name, address, phone, issue), map, alternate phone.
+
+Additional:
+
+FAQs page: Accordion for common questions.
+
+Blog: Title, date, short snippet, photo.
+
+Design Principles
+Navigation: Top bar, sticky on scroll.
+
+Typography: Sans-serif, e.g., Montserrat or Open Sans.
+
+Layout: Grid on desktop, full-width cards for services.
+
+Imagery: Clean, real job-site photos, not stock.
+
+Animations: Subtle fade-in on scroll, button hover.
+
+Interactive: Booking form validation, expandable FAQ.
+
+Footer: Contact info, license #, quick links, privacy.
+
+Color Scheme
+Primary: #2979FF (Blue) – CTAs, header
+
+Secondary: #F5F6FA (Light gray) – background
+
+Accent: #FFC107 (Yellow) – highlights, buttons
+
+Pricing
+Budget: $4,500–$6,000
+
+Schedule: 40% deposit, 30% mid-point, 30% on launch
+
+Future add-ons: Chatbot, live scheduling integration
+
+Detailed Proposal Requirements
+Background/objective:
+Central PA Plumbing Pros, established 2010, focus on honest, rapid service. New site to modernize and automate lead intake.
+
+Deliverables (expected):
+
+Wireframes, custom design, website build, content integration, Google My Business setup.
+
+We provide photos and service info.
+
+Communication/tools:
+Email + Slack, weekly standups via Zoom.
+
+Next steps:
+Design review 7/15, dev start 7/22, launch target 9/10.
+
+APP Structure (Python/Flask)
+Starting from scratch.
+
+External:
+
+SQLite or Postgres
+
+Google Maps API
+
+Email API for booking notifications
+
+Folder structure:
+/app, /static, /templates, /forms, /models
+
+Optimal Structure Enhancements
+Blueprints:
+
+auth, main, services, booking
+
+Custom:
+
+Utility for sending email/text confirmations
+
+Map rendering
+
+Testing:
+
+Unit for booking logic
+
+End-to-end for booking flow
+
+Key Takeaways & UX/UI Journey
+Pain points:
+
+Hard to get a call back
+
+Unclear pricing
+
+Difficult to book after hours
+
+Opportunities:
+
+Fast quote, transparent pricing, live booking
+
+Design objective:
+
+Make trust and ease visible immediately
+
+SEO & Analytics Strategy
+Keywords: “plumber Harrisburg”, “emergency plumber Camp Hill”, “water heater install Mechanicsburg”
+
+Metadata:
+Custom page titles, meta descriptions per page.
+
+Analytics:
+Will create new Google Analytics, Tag Manager.
+
+KPIs:
+Form fills, calls, online bookings
+
+Content Strategy
+Tone: Friendly, expert, neighborly.
+
+Content types: Bi-weekly blog, seasonal tips, case studies.
+
+Content team: Owner drafts, office manager approves.
+
+CMS: Static site, blog managed via markdown.
+
+Style Guide
+Logos: 2-color logo provided (blue/yellow, Central PA Plumbing Pros branding)
+
+Typography scale: H1–H6 defined, body 16px, headings bold.
+
+Voice/tone: Clear, honest, approachable.
+
+API Docs
+Endpoints:
+
+POST /api/book – Book appointment
+
+GET /api/services – List all services
+
+Schemas:
+Appointment: {name, address, phone, service, time}
+
+Auth:
+Admin: simple password login
+
+Rate limit:
+100/hour on booking

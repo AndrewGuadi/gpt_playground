@@ -15,7 +15,7 @@ if __name__=="__main__":
     filepath = os.path.join(BASE_DIR, 'docfinder','documents', 'information_outline.txt')
     information_outline = FileUtils.read_file(filepath)
     type_of_website = input('What is your business?')
-    goal = f"[Goal]: To build comprehensive Documentation for this clients website:{type_of_website}.\n\nWhat information do you need from me to write these files:\n\n{information_outline}."
+    goal = f"[Goal]: To build comprehensive Documentation for this clients website (we will create all the technical documentation, we just need business details and goals):{type_of_website}.\n\nWhat information do you need from me to write these files:\n\n{information_outline}."
     information = needed_information(goal)
 
     for f in information.forms:
