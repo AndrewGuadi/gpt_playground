@@ -33,12 +33,6 @@ ____________________________________________________________________________
 Color Scheme
 Primary, neutral, and accent colors with hex codes and designated roles.
 ____________________________________________________________________________
-Pricing
-Phase-by-phase pricing breakdown, payment schedule, optional add-ons.
-____________________________________________________________________________
-Detailed Proposal
-Background and objectives, deliverable breakdown, responsibilities, collaboration, next steps.
-____________________________________________________________________________
 APP Structure
 Python/Flask directory structure for the application.
 ____________________________________________________________________________

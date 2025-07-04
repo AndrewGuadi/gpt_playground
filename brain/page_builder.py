@@ -7,8 +7,8 @@ def field_html(field):
     name = short_label.lower().replace(" ", "_").replace("?", "").replace("/", "_")
     placeholder = field.question if len(field.question) > 40 else ""
     # Use textarea if question is long or field_type is 'paragraph', 'list', or 'object'
-    use_textarea = field.field_type in ['paragraph', 'list', 'object'] or len(field.question) > 70
-    if field.field_type == 'file':
+    use_textarea = field.html_input_field_type in ['paragraph', 'list', 'object'] or len(field.question) > 70
+    if field.html_input_field_type == 'file':
         input_html = f'<input type="file" name="{name}">'
     elif use_textarea:
         input_html = f'<textarea name="{name}" placeholder="{placeholder}"></textarea>'

@@ -41,7 +41,7 @@ def needed_information(goal):
      ##create outline for user form
     user_form_fields = {
         'question': str,
-        'field_type': str
+        'html_input_field_type': str
     }
 
     user_form = gpt.create_pydantic_model('user_form', user_form_fields)

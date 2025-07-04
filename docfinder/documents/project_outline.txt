@@ -1,59 +1,134 @@
-📌 Project Description
-Title:
-“Live Browser Sensor Dashboard”
+✅ Project Outline: Mobile Sensor Dashboard SPA
+📌 Goal
+Create a single-page application that:
 
-📋 What It Is
-A single-page web app (one HTML, one CSS, one JS) that reads live data from motion and environmental sensors built into a user’s device.
-It shows these readings in real time directly in the browser — no backend, no database, no extra libraries.
+Uses only index.html, styles.css, and script.js
 
-🎯 Purpose
-To demonstrate how modern browsers expose physical device sensors (like accelerometer, gyroscope, magnetometer).
+Displays live readings from:
 
-To visualize how these values change when the user moves, tilts, rotates, or changes the surrounding light.
+Accelerometer
 
-To serve as a learning reference for using the Generic Sensor API and older fallback events.
+LinearAccelerationSensor
 
-📱 Core Features
-✅ 1. Motion Sensors
+Gyroscope
 
-Accelerometer — measures how the device moves linearly along X, Y, Z axes.
+Magnetometer
 
-Gyroscope — measures rotation/spin around the axes.
+AbsoluteOrientationSensor
 
-Device Motion — fallback for combined motion + rotation rate.
+RelativeOrientationSensor
 
-Device Orientation — fallback for compass-like tilt and heading.
+Updates values in real-time
 
-✅ 2. Environmental Sensors
+Shows sensor status (working / error / unsupported)
 
-Ambient Light Sensor — shows light level (lux).
+Runs entirely in the browser, no external libraries
 
-Magnetometer — shows magnetic field strength, useful for compass data.
+Requires HTTPS for real sensor access
 
-🔒 How It Works
-On page load, the JS file checks if each sensor is supported.
+📂 Project Structure
+bash
+Copy
+Edit
+/sensor-dashboard/
+ ├─ index.html
+ ├─ styles.css
+ └─ script.js
+📄 index.html
+Basic HTML5 structure.
 
-If yes, it requests permission (if needed) and starts streaming live data.
+<head> includes:
 
-The page displays the readings in separate, clearly labeled blocks.
+<title> — “Sensor Dashboard”
 
-If a sensor is unsupported, the page shows a fallback message.
+<link> to styles.css
 
-🎨 Look & Feel
-The CSS keeps it simple: readable text, clean blocks for each sensor, basic layout.
+<body> includes:
 
-The page works fully offline (except for needing HTTPS to access some sensors).
+<h1> — page title.
 
-⚙️ Technical Notes
-Uses Generic Sensor API (modern standard) for accelerometer, gyroscope, magnetometer, ambient light.
+Short instruction: “Tap to allow sensors, must be HTTPS.”
 
-Uses DeviceMotion and DeviceOrientation as fallback for older devices.
+One <div> block per sensor, each containing:
 
-No server — all data stays in the browser.
+<h2> sensor name
 
-No libraries or frameworks — pure HTML, CSS, JS.
+<p> tags for live X, Y, Z or quaternion values
 
-🚀 Use Case
-A student or developer moves their phone around, tilts it, spins it, shines a light at it — and watches the data change instantly.
+<p class="status"> to show errors or status
 
-Useful for demos, motion-controlled prototypes, or learning how sensor permissions work.
+<script> tag at end for script.js.
+
+🎨 styles.css
+Simple readable styling:
+
+Body padding and neutral background
+
+h1 centered
+
+.sensor blocks with borders, spacing, subtle shadow
+
+<p> tags with clean spacing
+
+Responsive: stack vertically, readable on mobile
+
+🧩 script.js
+Responsibilities:
+
+Create setupSensor helper function
+
+Takes:
+
+Sensor constructor (Accelerometer, Gyroscope, etc.)
+
+ID of the container div
+
+Callback to handle data
+
+For each sensor:
+
+Call setupSensor with:
+
+Sensor name
+
+Handler that reads x,y,z or quaternion
+
+Updates text in <span>s inside the container
+
+Handle errors:
+
+If sensor not supported, show Not supported.
+
+If permission blocked, show Permission denied.
+
+If working, show live values.
+
+Frequency:
+
+Use {frequency: 10} or {frequency: 30} for smooth updates.
+
+🔒 Requirements
+Must run on https:// or localhost — many sensor APIs don’t work on HTTP.
+
+Works best on modern mobile browsers.
+
+Some sensors may require user gesture (tap).
+
+✅ Extra (optional)
+Add timestamp or update rate.
+
+Color code status (green for working, red for error).
+
+Simple auto-refresh if a sensor stops.
+
+Fallback message for unsupported devices.
+
+⚡ Deliverable
+A lightweight, zero-dependency local test app to:
+
+Inspect what sensors your device/browser exposes.
+
+See raw values live.
+
+Help debug motion/orientation access issues.
+

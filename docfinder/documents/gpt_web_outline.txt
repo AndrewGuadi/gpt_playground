@@ -1,0 +1,6 @@
+Project Introduction
+Brief overview of the website: goals, stakeholders, scope.
+____________________________________________________________________________
+Color Scheme
+Primary, neutral, and accent colors with hex codes and designated roles.
+____________________________________________________________________________

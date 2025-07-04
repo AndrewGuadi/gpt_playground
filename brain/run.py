@@ -12,10 +12,10 @@ if __name__=="__main__":
     BASE_DIR = os.path.dirname(CURRENT_DIR)
 
     # Join with your file path from BASE_DIR
-    filepath = os.path.join(BASE_DIR, 'docfinder','documents', 'information_outline.txt')
+    filepath = os.path.join(BASE_DIR, 'docfinder','documents', 'gpt_web_outline.txt')
     information_outline = FileUtils.read_file(filepath)
     type_of_website = input('What is your business?')
-    goal = f"[Goal]: To build comprehensive Documentation for this clients website (we will create all the technical documentation, we just need business details and goals):{type_of_website}.\n\nWhat information do you need from me to write these files:\n\n{information_outline}."
+    goal = f"[Goal]: To build comprehensive Documentation for this clients website (we will create all the technical documentation, we just need business details and goals):{type_of_website}.\n\nWhat information do you need from me to write these files:\n\n{information_outline}. ----only ask user basic business questions that a small business owner would know. We must build all other details"
     information = needed_information(goal)
 
     for f in information.forms:
