@@ -1,0 +1,193 @@
+1. Project Overview
+
+Overview:
+Capital City Plumbing Solutions is a locally owned plumbing company serving Harrisburg and surrounding suburbs. They specialize in drain cleaning, leak detection, pipe repair, water heater installation, sump pump maintenance, and 24/7 emergency services.
+
+Goals:
+• Generate qualified local leads via organic search and paid channels
+• Enable customers to request and schedule services online
+• Clearly display service offerings and transparent pricing
+• Showcase customer reviews and testimonials
+• Provide prominent emergency contact information
+
+Stakeholders:
+• Mike Robinson (Owner)
+• Sarah Lee (Office Manager)
+• Technician Team (4 full-time plumbers)
+
+Scope:
+• Branding and visual design (colors, typography, imagery)
+• Responsive website design and development
+• Content strategy and SEO optimization for local search
+• Online booking/service request form integration
+• Reviews/testimonials module
+• Analytics setup and performance tracking
+
+2. Customer Personas
+
+Persona A:
+Name: Residential Rachel
+Description: A busy homeowner dealing with routine or unexpected plumbing issues.
+Demographics: 35–50 years old, married, two children, household income $80k–$120k.
+Motivations: Fast response, reliable technicians, transparent pricing, minimal disruption to family life.
+
+Persona B:
+Name: Business Owner Bob
+Description: Small business owner (café, retail) needing plumbing maintenance to avoid downtime.
+Demographics: 30–55 years old, runs a small brick-and-mortar shop, revenue $200k–$500k.
+Motivations: Preventative maintenance, quick fixes during off-hours, clear quotes, dependable service agreements.
+
+Persona C:
+Name: Property Manager Pat
+Description: Manages multiple residential or commercial properties, requires a trusted plumbing partner.
+Demographics: 40–60 years old, oversees 10–50 units, budget-conscious, values reliability.
+Motivations: Consolidated billing, scheduled maintenance plans, emergency response, documented work reports.
+
+Persona D:
+Name: Emergency Emma
+Description: Individual facing a plumbing emergency (burst pipe, backed-up drain) at odd hours.
+Demographics: 25–65 years old, any household income, high stress.
+Motivations: 24/7 availability, fast ETA, clear emergency rates, reassurance of licensed professionals.
+
+3. Customer Journey Maps
+
+Persona A (Residential Rachel):
+• Awareness: Searches "local plumber Harrisburg" after noticing slow drain
+• Consideration: Reviews service pages, pricing, and Google reviews
+• Decision: Fills out online request form or calls the emergency line
+• Service: Technician arrives on time, fixes problem, explains work
+• Post-Service: Receives follow-up email, leaves a 5-star review
+
+Persona B (Business Owner Bob):
+• Awareness: Internet ad highlights off-hour services
+• Consideration: Visits site’s "commercial services" section, reads testimonials
+• Decision: Completes contact form specifying preferred service window
+• Service: Plumber performs maintenance after business hours
+• Post-Service: Receives invoice, schedules next quarterly check
+
+Persona C (Property Manager Pat):
+• Awareness: Referral from colleague
+• Consideration: Browses bundled maintenance plans and volume discounts
+• Decision: Requests a custom maintenance proposal via online form
+• Service: Recurring maintenance visits, digital work logs provided
+• Post-Service: Updates residents, approves recurring billing
+
+Persona D (Emergency Emma):
+• Awareness: Google search "emergency plumber near me"
+• Consideration: Clicks emergency hotline button at top of every page
+• Decision: Calls 24/7 number, Technician dispatched immediately
+• Service: Fast response, repair completed within hours
+• Post-Service: Receives emergency service confirmation and receipt
+
+4. Sitemap
+
+Pages:
+• Home
+• About Us
+• Services
+   – Drain Cleaning
+   – Leak Detection
+   – Pipe Repair
+   – Water Heater Installation
+   – Sump Pump Maintenance
+   – Emergency Plumbing
+• Pricing
+• Service Areas
+• Testimonials
+• FAQ
+• Blog/Resources
+• Contact Us (with online booking form)
+• Emergency Hotline (persistent header link)
+
+5. Deliverables
+
+Completed:
+• Business questionnaire
+• Initial stakeholder alignment
+
+Outstanding:
+• Detailed personas & journey maps
+• High-fidelity wireframes & interactive prototypes
+• Visual design mockups
+• Front-end and back-end development
+• Content creation and SEO optimization
+• QA testing and cross-device validation
+• Launch and post-launch monitoring
+
+6. Wireframes
+
+Home Page:
+• Hero section with headline, subhead, CTA buttons (Schedule Service, Emergency Call)
+• Services overview with icons and "Learn More"
+• Testimonials carousel
+• Service area map
+• Footer with contact, social links, emergency hotline
+
+Services Page:
+• List of each service with brief description, pricing starting point, CTA
+• Sidebar with contact form and emergency hotline
+
+Contact Page:
+• Service request form (name, address, service type, preferred date/time)
+• Phone number, email, live chat icon
+• Embedded Google Map of service area
+
+Other Pages:
+• About Us: team bios, company history
+• Testimonials: full client reviews
+• FAQ: collapsible Q&A sections
+• Blog: articles on plumbing tips and maintenance
+
+7. Design Principles
+
+Navigation:
+• Sticky header with clear labels and emergency CTA
+
+Typography:
+• Sans-serif for headings (strong, modern)
+• Highly readable body font at 16px+ size
+
+Layout:
+• Modular grid for consistency
+• Generous white space for clarity
+
+Color Scheme:
+• Primary: #005FA3 (trustworthy blue)
+• Neutral: #FFFFFF, #F5F5F5
+• Accent: #FFA500 (urgent, attention-grabbing)
+
+Imagery:
+• High-resolution photos of uniformed technicians
+• Before/after service shots
+
+Animations & Microinteractions:
+• Subtle hover states on buttons and links
+• Animated scroll-in for section headers
+
+Interactive Elements:
+• Clear CTA buttons (Schedule, Call Now)
+• Form validation feedback
+
+Responsive Design:
+• Mobile-first approach
+• Collapsible menus and touch-friendly buttons
+
+Footer:
+• Quick links, contact info, service areas, newsletter signup
+
+8. Color Scheme
+
+Primary: #005FA3 (blue)
+Neutral: #FFFFFF (white), #F5F5F5 (light gray)
+Accent: #FFA500 (bright orange)
+Notes: Avoid red and dark green to maintain brand consistency and avoid emergency/error color conflicts.
+
+9. App Structure
+
+Description:
+The website is structured as a single-page responsive application with nested route support for deep linking. Core modules include: Home, Services, Booking Form, Testimonials, Blog, and Contact. A global state manages form data and user interactions; analytics events are dispatched on key CTAs.
+
+10. Optimal Structure
+
+Description:
+Adopt a header–main–footer HTML5 semantic layout. Keep global navigation at the top, with in-page anchor links for service sections. Main content is modular and reusable (React/Vue components or server-rendered partials). Footer contains secondary navigation and legal info. Ensure HTML is accessible (ARIA landmarks) and optimized for performance (lazy-loading images, minified assets).

@@ -1,0 +1,82 @@
+Wireframes:
+
+1. Home Page
+   - Header:
+     • Logo (top-left)
+     • Navigation: Home, Services, About Us, Testimonials, Contact
+     • “Emergency Service” phone button (bright orange) in top-right
+   - Hero Section:
+     • Full-width background image of a plumber at work
+     • Headline: “Reliable Plumbing Solutions in Harrisburg” (blue #005FA3)
+     • Sub-headline: “24/7 Emergency Service | $X Flat‐Rate Diagnostics”
+     • Primary Call-to-Action button: “Request Service” (orange #FFA500)
+   - Services Overview:
+     • Grid of 4-6 service cards (drain cleaning, leak detection, etc.)
+     • Each card: icon, title, brief description, “Learn More” link (blue)
+   - Why Choose Us:
+     • Three columns: Certified Technicians, Transparent Pricing, Rapid Response
+     • Simple icons and short copy
+   - Reviews Snapshot:
+     • Carousel of 3–5 star reviews with customer name and location
+   - Service Area Map:
+     • Stylized map highlighting Harrisburg, Camp Hill, Lemoyne, etc.
+     • List of service areas alongside map
+   - Footer:
+     • Contact info, office hours, social icons
+     • Secondary navigation: Privacy Policy, Terms
+     • Email signup field (light gray background #F5F5F5)
+
+2. Services Page
+   - Hero/Sub-Hero:
+     • Page title: “Our Plumbing Services”
+     • Short intro paragraph
+   - Services List:
+     • Accordion or tab layout for each primary service
+     • Details: description, starting price, typical turnaround time
+     • “Book Now” buttons (orange)
+   - Sidebar or Sticky Contact Box:
+     • Quick request form: name, address, service type, phone
+     • Emergency phone reminder with icon
+   - Testimonials Callout:
+     • Two or three highlighted quotes with star ratings
+   - Trust Badges:
+     • License, insurance, BBB accreditation icons
+
+3. Contact Page
+   - Header/Title: “Contact Capital City Plumbing Solutions”
+   - Emergency Banner:
+     • Bold stripe in orange: “Need help now? Call (xxx) xxx-xxxx”
+   - Contact Form:
+     • Fields: Name, Email, Phone, Address, Service Needed, Preferred Date
+     • Submit button (orange)
+   - Contact Details:
+     • Office address, phone, email
+     • Office hours and 24/7 emergency note
+   - Interactive Map:
+     • Embedded Google Map centered on Harrisburg area
+   - Service Area List:
+     • Bullet list of all served communities
+   - Footer (consistent with Home)
+
+4. Other Pages
+   - About Us:
+     • Company history, mission statement, team photos (Mike Robinson, Sarah Lee, technicians)
+     • “Meet the Team” section
+   - Testimonials / Reviews:
+     • Full page of customer reviews, sortable by service or location
+   - FAQ:
+     • Accordion with 8–10 frequently asked questions about pricing, warranties, service guarantees
+   - Service Detail Pages:
+     • Dedicated page for each service (e.g., Water Heater Installation)
+     • Detailed scope, pricing tiers, process overview, gallery
+   - Blog / Tips:
+     • Articles on plumbing maintenance, seasonal tips, DIY vs. professional advice
+     • Sidebar for recent posts and a call-to-action to subscribe
+
+Design Notes:
+- Primary color for headings and accents: #005FA3 (blue)
+- Accent and button color: #FFA500 (bright orange)
+- Neutral backgrounds: white and #F5F5F5
+- Avoid red and dark green
+- Consistent mobile-responsive grid layout
+- Prominent call-to-action on every page

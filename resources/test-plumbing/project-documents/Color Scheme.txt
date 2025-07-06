@@ -1,0 +1,7 @@
+Primary: #005FA3
+
+Neutral: #FFFFFF (white) or #F5F5F5 (light gray)
+
+Accent: #FFA500 (bright orange)
+
+Notes: Avoid use of red and dark green. Ensure all color combinations meet WCAG AA contrast standards for accessibility.

@@ -1,4 +1,5 @@
-
+import os
+from dir_tools.file_utils import FileUtils
 
 def field_html(field):
     # Short label = first phrase before ":", "?" or max 7 words
@@ -41,3 +42,30 @@ def generate_html_form(forms, title="Client Questionnaire"):
     html_parts.append('<button type="submit">Submit</button></form></body></html>')
     return "\n".join(html_parts)
 
+
+def create_project_documentation(gpt, project_dir, project_filepath):
+    document_details = {
+        "document_title": str,
+        "document_text":  str
+    }
+    document_outline = gpt.create_pydantic_model("document_outline", document_details)
+    # we want to read into the file the list of documents, probably a list to iterate through, but grab dynamically
+    CURRENT_DIR = os.path.dirname(__file__)         # directory where this file is
+    BASE_DIR = os.path.dirname(CURRENT_DIR)
+    questionaire_filepath = os.path.join(BASE_DIR, 'resources', project_dir, project_filepath)
+    user_questionaire = FileUtils.read_file(questionaire_filepath)
+
+    information_outline_path = os.path.join(BASE_DIR, 'resources', 'templates', 'document_outline.json')
+    information_outline = FileUtils.read_json(information_outline_path)
+
+    for item in information_outline:
+        print(item)
+        prompt = f"Using the user questionaire only: {user_questionaire}.\n\n, We must complete the following information: {item['document_title']}\n\n with the following details: {item['details']}"
+        document_list = gpt.structured_response(prompt, document_outline)
+        # we want to call a generator that generates the document in its completion and then writes it the the correct local client directory
+            # we iterate until each document is written.
+
+        new_path = os.path.join(BASE_DIR, 'resources', project_dir, 'project-documents', document_list.document_title+".txt")
+        FileUtils.write_file(new_path, document_list.document_text)
+        print(document_list.document_title)
+        print(document_list.document_text)

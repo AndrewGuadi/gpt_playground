@@ -1,0 +1,44 @@
+Typography Scale:
+- Font Family: Open Sans (sans-serif) for all text elements.
+- Heading 1 (H1): 36px, weight 700
+- Heading 2 (H2): 30px, weight 600
+- Heading 3 (H3): 24px, weight 600
+- Body Text: 16px, weight 400
+- Small Text/Labels: 14px, weight 400
+
+Color Usage:
+- Primary Color (#005FA3):
+  • Primary navigation bar background
+  • Section headers and key text highlights
+  • Icons and graphic accents
+- Neutral Colors (#FFFFFF, #F5F5F5):
+  • Page backgrounds (white)
+  • Card and form backgrounds (light gray)
+  • Secondary text and divider lines
+- Accent Color (#FFA500):
+  • Call-to-action buttons (Request Service, Get a Quote)
+  • Link hovers and button hovers
+  • Emergency contact callouts and notification badges
+- Colors to Avoid:
+  • Red, dark green (to maintain brand consistency and avoid color conflicts)
+
+Logo Variations:
+- Full-Color Logo:
+  • Blue (#005FA3) wordmark with orange (#FFA500) plumbing icon
+  • Use on white/light-gray backgrounds only
+- Reversed (White) Logo:
+  • White wordmark and icon on blue (#005FA3) background
+  • Use for dark headers or overlays
+- Icon-Only Version:
+  • Orange (#FFA500) stylized pipe/wrench icon
+  • Use as favicon, app icon, or social media avatar
+
+Voice & Tone:
+- Professional and Trustworthy:
+  • Use clear, concise language that demonstrates expertise ("Our certified technicians...").
+- Friendly and Approachable:
+  • Maintain a warm, helpful tone ("We’re here to help 24/7…").
+- Urgent and Responsive (for emergency services):
+  • Use action-oriented phrasing ("Call Now", "Immediate Leak Repair Available").
+- Informative and Reassuring:
+  • Provide details on processes and pricing to build confidence ("No surprises—flat-rate pricing").

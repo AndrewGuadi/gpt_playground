@@ -1,0 +1,49 @@
+Navigation:
+• Primary navigation bar at top with clear links: Home, Services (dropdown listing all primary services), Pricing, Reviews, Request Service, Contact, Emergency.  
+• Sticky header on scroll to keep emergency contact and request-service button always accessible.  
+• Breadcrumbs on internal pages (e.g., individual service pages) to aid orientation.
+
+Typography:
+• Clean, modern sans-serif font (for example, Open Sans or Helvetica Neue) for excellent on-screen readability.  
+• Hierarchical scale: H1 for page titles (bold, large), H2 for section headings, H3 for subheadings, body text at a comfortable 16px–18px size.  
+• Strong emphasis styles (bold, accent-colored) on calls to action and key information (emergency number, request button).
+
+Layout:
+• Grid-based, two-column layouts for desktop: content on left, supporting imagery or testimonial on right.  
+• Ample white-space around service blocks to avoid clutter and highlight CTAs.  
+• Hero section on Home page with prominent headline, subheadline, service request form, and primary CTA (orange button).
+
+Color Scheme:
+• Primary color: Blue (#005FA3) for headers, nav background, and key accents.  
+• Neutral palette: White and light gray (#F5F5F5) for backgrounds, content containers, and sections to ensure readability.  
+• Accent color: Bright orange (#FFA500) for buttons, links on hover, and important callouts (emergency banner, promos).  
+• Avoid red and dark green to maintain brand consistency.
+
+Imagery:
+• High-resolution photos of technicians performing services (drain cleaning, pipe repair, water heater installation) to build trust.  
+• Local landmarks or recognizable Harrisburg community scenes to reinforce local focus.  
+• Consistent color grading and style (natural lighting, warm tones) for cohesive visual identity.
+
+Animations & Microinteractions:
+• Subtle hover states on buttons (slight scale up or color shift to a deeper blue or orange).  
+• Animated form field focus indicators and success ticks upon submission.  
+• Smooth scroll to page sections when nav links are clicked.  
+• Loading spinners or skeleton screens for service and review data on slow connections.
+
+Interactive Elements:
+• Embedded service request form with real-time validation and confirmation message.  
+• Testimonial slider or carousel showcasing customer reviews with navigation arrows.  
+• Interactive map of service areas with hoverable markers for each community.  
+• Click-to-call emergency button visible on all pages for mobile users.
+
+Responsive Design:
+• Mobile-first approach with breakpoints at 480px, 768px, and 1024px.  
+• Collapsible hamburger menu on tablets and phones.  
+• Fluid grids that stack columns vertically on narrow screens.  
+• Touch-friendly buttons and form fields with sufficient padding for thumbs.
+
+Footer:
+• Dark blue background with white text for contrast.  
+• Sections: Quick Links (nav repeated), Contact Info (address, phone, email), Service Areas list, Social Media icons.  
+• Emergency 24/7 phone number prominently displayed.  
+• Copyright notice and minimal legal links (Privacy Policy, Terms).

@@ -1,0 +1,36 @@
+Keywords:
+- Harrisburg plumber
+- Emergency plumber Harrisburg
+- Drain cleaning Harrisburg
+- Leak detection Harrisburg
+- Water heater installation Harrisburg
+- Pipe repair Harrisburg
+- Sump pump maintenance Harrisburg
+- Local plumbing services Harrisburg
+- Plumbing company Camp Hill
+- Plumbing services Mechanicsburg
+
+Metadata:
+• Title tag: “Capital City Plumbing Solutions | Harrisburg’s 24/7 Plumbing Experts”
+• Meta description: “Need fast, reliable plumbing in Harrisburg and surrounding areas? Capital City Plumbing Solutions offers drain cleaning, leak detection, pipe repair, water heater installation & emergency services. Request service online or call now!”
+
+Tracking Setup:
+• Google Analytics 4: track pageviews, user flows, geo-location of sessions and device breakdown.
+• Event tracking:
+  • Form submissions (service request form)
+  • Click-to-call button taps
+  • “Get a Quote” button clicks
+  • Live chat interactions (if applicable)
+• Google Tag Manager: deploy GA4 and custom event tags without code changes.
+• Google Search Console: monitor index coverage, query performance, mobile usability.
+• Heat-mapping (Hotjar or Crazy Egg): analyze scroll depth and click behavior on service pages & CTAs.
+
+KPIs:
+- Organic sessions from target service keywords
+- Number of online service requests (form submissions)
+- Click-to-call actions
+- Conversion rate (requests ÷ total visits)
+- Bounce rate on key landing pages (Home, Services)
+- Keyword rankings for 5–10 primary local terms
+- Average position in Google Maps/Local Pack
+- New vs. returning visitor ratio

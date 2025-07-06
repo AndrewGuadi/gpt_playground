@@ -1,0 +1,21 @@
+An optimal website structure for Capital City Plumbing Solutions should be intuitive and streamlined to drive local leads and service requests. Key elements:
+
+1. Header & Navigation: Persistent sticky header with logo, phone (emergency contact), and primary menu. Menu items: Home, Services (dropdown for each service), Pricing, Reviews, About Us, Contact.
+
+2. Homepage: Hero section with brief value proposition, emergency contact, ‘Request Service’ bright orange CTA. Quick links to top services. Featured customer reviews. Service area overview.
+
+3. Services Section:
+   - Landing page listing all services with brief descriptions and links.
+   - Individual service pages (Drain Cleaning, Leak Detection, etc.) each with detailed info, pricing, benefits, and embedded request form/CTA.
+
+4. Pricing Page: Transparent pricing tiers or starting costs for major services. FAQs about estimates.
+
+5. Reviews Page: Showcase verified customer testimonials, star ratings, and local case studies.
+
+6. About Us: Company story, team introductions (Mike Robinson, Sarah Lee, technician team), credentials, licenses, community involvement.
+
+7. Contact Page: Phone, email, service request form, live chat option. Interactive map highlighting Harrisburg, Camp Hill, Lemoyne, Mechanicsburg, Enola, and suburbs.
+
+8. Footer: Emergency hotline, quick links, social media icons, service area list, business address, copyright.
+
+9. Global Elements: Bright orange CTAs for ‘Request Service’ on every page; consistent use of brand blue (#005FA3) backgrounds; white/light gray (#F5F5F5) panels; responsive layout with mobile-first design; accessibility best practices. This structure ensures clear paths from discovery to booking while highlighting emergency services and local focus.

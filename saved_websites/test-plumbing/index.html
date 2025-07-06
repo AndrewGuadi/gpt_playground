@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Capital City Plumbing Solutions | Harrisburg’s 24/7 Plumbing Experts</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Need fast, reliable plumbing in Harrisburg and surrounding areas? Capital City Plumbing Solutions offers drain cleaning, leak detection, pipe repair, water heater installation & emergency services. Request service online or call now!">
+  <link href="styles.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-900 font-sans">
+<script src="script.js" defer></script>
+<!-- Header -->
+<header class="sticky top-0 z-50 shadow-lg bg-[#005FA3] text-white backdrop-blur-sm neumorph">
+  <div class="max-w-7xl mx-auto flex items-center justify-between py-4 px-6">
+    <!-- Logo -->
+    <div class="flex items-center gap-3">
+      <img src="/placeholder-logo.svg" alt="Capital City Plumbing Solutions Logo" class="h-10 w-10 drop-shadow-xl rounded-full bg-white p-1 neumorph-light">
+      <span class="text-2xl font-bold tracking-tight hidden sm:block">Capital City Plumbing</span>
+    </div>
+    <!-- Navigation -->
+    <nav id="desktop-nav" class="hidden md:flex gap-8 font-semibold">
+      <a href="#" class="hover:text-[#FFA500] transition duration-200">Home</a>
+      <a href="#services" class="hover:text-[#FFA500] transition duration-200">Services</a>
+      <a href="#why-choose" class="hover:text-[#FFA500] transition duration-200">About Us</a>
+      <a href="#reviews" class="hover:text-[#FFA500] transition duration-200">Testimonials</a>
+      <a href="#contact" class="hover:text-[#FFA500] transition duration-200">Contact</a>
+    </nav>
+    <!-- Emergency Button -->
+    <div class="flex items-center gap-3">
+      <a href="tel:1234567890" class="emergency-cta-btn neumorph-orange shadow-lg">Emergency Service</a>
+      <!-- Hamburger for mobile -->
+      <button id="menu-btn" class="ml-4 md:hidden p-3 rounded-lg focus:outline-none neumorph" aria-label="Open main menu"><svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white"><path d="M4 7h20M4 14h20M4 21h20"/></svg></button>
+    </div>
+  </div>
+  <!-- Mobile Menu -->
+  <div id="mobile-nav" class="hidden md:hidden absolute top-full left-0 w-full bg-[#005FA3] shadow-neumorph-inset " style="transition: max-height 0.4s cubic-bezier(0.4,0,0.2,1);">
+    <nav class="flex flex-col gap-4 py-6 px-8 text-lg">
+      <a href="#" class="hover:text-[#FFA500]">Home</a>
+      <a href="#services" class="hover:text-[#FFA500]">Services</a>
+      <a href="#why-choose" class="hover:text-[#FFA500]">About Us</a>
+      <a href="#reviews" class="hover:text-[#FFA500]">Testimonials</a>
+      <a href="#contact" class="hover:text-[#FFA500]">Contact</a>
+      <a href="tel:1234567890" class="emergency-cta-btn neumorph-orange my-3">Emergency Service</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Hero Section -->
+<section class="relative flex items-center justify-center min-h-[480px] bg-cover bg-center bg-no-repeat hero-bg neumorph-xl" style="background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1500&q=80');">
+  <div class="absolute inset-0 bg-gradient-to-b from-[#005FA3]/80 to-transparent"></div>
+  <div class="relative z-10 max-w-3xl mx-auto py-16 px-6 text-center text-white">
+    <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4" style="color:#005FA3; text-shadow: 2px 3px 12px #fff,0 4px 20px #2b2b2b50;">Reliable Plumbing Solutions in Harrisburg</h1>
+    <p class="text-xl md:text-2xl mb-6 font-semibold drop-shadow-lg">24/7 Emergency Service | $89 Flat‐Rate Diagnostics</p>
+    <div class="flex flex-col sm:flex-row gap-6 justify-center">
+      <a href="#request-service" class="cta-primary-btn neumorph-orange hover:scale-105 focus:scale-105 shadow-xl transition duration-200">Request Service</a>
+      <a href="tel:1234567890" class="cta-secondary-btn neumorph-white transition duration-200">Call Now</a>
+    </div>
+  </div>
+</section>
+
+<!-- Services Overview -->
+<section id="services" class="py-20 px-6 bg-[#F5F5F5] neumorph-xl">
+  <div class="max-w-7xl mx-auto mb-10 text-center">
+    <h2 class="text-3xl md:text-4xl font-bold text-[#005FA3] mb-2">Our Services</h2>
+    <p class="text-lg text-gray-700">From routine maintenance to emergencies, we’re Harrisburg’s trusted plumbing partner.</p>
+  </div>
+  <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+    <!-- Service Card 1 -->
+    <div class="service-card neumorph flex flex-col items-center p-8 round-lg text-center hover:-translate-y-1 hover:shadow-2xl transition duration-200">
+      <div class="mx-auto mb-4 c-ico bg-[#005FA3]/10 neumorph flex items-center justify-center h-16 w-16 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" class="h-9 w-9 text-[#005FA3]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7"/></svg></div>
+      <h3 class="text-xl font-bold mb-2">Drain Cleaning</h3>
+      <p class="text-gray-700 mb-4">Clearing blockages and ensuring smooth flows in all drain types.</p>
+      <a href="#" class="text-[#005FA3] underline font-medium hover:text-[#FFA500] transition">Learn More</a>
+    </div>
+    <!-- Service Card 2 -->
+    <div class="service-card neumorph flex flex-col items-center p-8 round-lg text-center hover:-translate-y-1 hover:shadow-2xl transition duration-200">
+      <div class="mx-auto mb-4 c-ico bg-[#FFA500]/10 neumorph-orange flex items-center justify-center h-16 w-16 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" class="h-9 w-9 text-[#FFA500]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m-18 0v8a2 2 0 002 2h14a2 2 0 002-2V8"/></svg></div>
+      <h3 class="text-xl font-bold mb-2">Leak Detection</h3>
+      <p class="text-gray-700 mb-4">Pinpointing leaks fast & preventing costly water damage.</p>
+      <a href="#" class="text-[#005FA3] underline font-medium hover:text-[#FFA500] transition">Learn More</a>
+    </div>
+    <!-- Service Card 3 -->
+    <div class="service-card neumorph flex flex-col items-center p-8 round-lg text-center hover:-translate-y-1 hover:shadow-2xl transition duration-200">
+      <div class="mx-auto mb-4 c-ico bg-[#005FA3]/10 neumorph flex items-center justify-center h-16 w-16 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" class="h-9 w-9 text-[#005FA3]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h8m-4-4v8"/></svg></div>
+      <h3 class="text-xl font-bold mb-2">Pipe Repair</h3>
+      <p class="text-gray-700 mb-4">Expert repairs and replacements for burst or aging pipes.</p>
+      <a href="#" class="text-[#005FA3] underline font-medium hover:text-[#FFA500] transition">Learn More</a>
+    </div>
+    <!-- Service Card 4 -->
+    <div class="service-card neumorph flex flex-col items-center p-8 round-lg text-center hover:-translate-y-1 hover:shadow-2xl transition duration-200">
+      <div class="mx-auto mb-4 c-ico bg-[#FFA500]/10 neumorph-orange flex items-center justify-center h-16 w-16 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" class="h-9 w-9 text-[#FFA500]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 10h16M10 4v16m4-16v16"/></svg></div>
+      <h3 class="text-xl font-bold mb-2">Water Heater Installation</h3>
+      <p class="text-gray-700 mb-4">Modern, energy-efficient hot water solutions—fast installs!</p>
+      <a href="#" class="text-[#005FA3] underline font-medium hover:text-[#FFA500] transition">Learn More</a>
+    </div>
+    <!-- Service Card 5 -->
+    <div class="service-card neumorph flex flex-col items-center p-8 round-lg text-center hover:-translate-y-1 hover:shadow-2xl transition duration-200">
+      <div class="mx-auto mb-4 c-ico bg-[#005FA3]/10 neumorph flex items-center justify-center h-16 w-16 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" class="h-9 w-9 text-[#005FA3]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><circle cx="12" cy="12" r="10"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 14s1.5 2 4 0 4 0 4 0"/></svg></div>
+      <h3 class="text-xl font-bold mb-2">Sump Pump Maintenance</h3>
+      <p class="text-gray-700 mb-4">Safeguard your basement with regular pump checks and repairs.</p>
+      <a href="#" class="text-[#005FA3] underline font-medium hover:text-[#FFA500] transition">Learn More</a>
+    </div>
+    <!-- Service Card 6 -->
+    <div class="service-card neumorph flex flex-col items-center p-8 round-lg text-center hover:-translate-y-1 hover:shadow-2xl transition duration-200">
+      <div class="mx-auto mb-4 c-ico bg-[#FFA500]/10 neumorph-orange flex items-center justify-center h-16 w-16 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" class="h-9 w-9 text-[#FFA500]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6h6v13"/></svg></div>
+      <h3 class="text-xl font-bold mb-2">Emergency Plumbing</h3>
+      <p class="text-gray-700 mb-4">Rapid 24/7 response for urgent plumbing disasters.</p>
+      <a href="#" class="text-[#005FA3] underline font-medium hover:text-[#FFA500] transition">Learn More</a>
+    </div>
+  </div>
+</section>
+
+<!-- Why Choose Us -->
+<section id="why-choose" class="py-20 px-6 bg-white">
+  <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
+    <div class="why-card neumorph p-8 rounded-lg flex flex-col items-center text-center">
+      <div class="mb-4"><svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-[#005FA3] neumorph-light" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m4 0h1v4h-1m3 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
+      <h4 class="font-bold text-xl mb-2">Certified Technicians</h4>
+      <p class="text-gray-700">Fully licensed & insured pros with decades of experience.</p>
+    </div>
+    <div class="why-card neumorph p-8 rounded-lg flex flex-col items-center text-center">
+      <div class="mb-4"><svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-[#FFA500] neumorph-light" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.1 0-2 .9-2 2v2h4v-2c0-1.1-.9-2-2-2zm0 8c-2.2 0-4-1.8-4-4V9c0-2.2 1.8-4 4-4s4 1.8 4 4v3c0 2.2-1.8 4-4 4z"/></svg></div>
+      <h4 class="font-bold text-xl mb-2">Transparent Pricing</h4>
+      <p class="text-gray-700">No surprises—flat rates & firm quotes before work begins.</p>
+    </div>
+    <div class="why-card neumorph p-8 rounded-lg flex flex-col items-center text-center">
+      <div class="mb-4"><svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-[#005FA3] neumorph-light" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3"/></svg></div>
+      <h4 class="font-bold text-xl mb-2">Rapid Response</h4>
+      <p class="text-gray-700">We’re on call 24/7 with fast, local arrival guaranteed.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Reviews Snapshot -->
+<section id="reviews" class="py-20 px-6 bg-[#F5F5F5]">
+  <div class="max-w-7xl mx-auto text-center mb-10">
+    <h2 class="text-3xl md:text-4xl font-bold text-[#005FA3] mb-2">What Our Customers Say</h2>
+    <p class="text-lg text-gray-700">Real stories from homeowners and businesses in Harrisburg & beyond.</p>
+  </div>
+  <div class="max-w-4xl mx-auto relative flex flex-col items-center">
+    <div id="review-carousel" class="w-full flex overflow-x-auto scroll-smooth gap-8 pb-4 hide-scroll-bar">
+      <!-- Review 1 -->
+      <div class="review-card neumorph p-8 rounded-xl min-w-[330px] max-w-[350px] mx-auto text-left flex flex-col gap-3 bg-white">
+        <div class="flex items-center gap-3">
+          <div class="h-12 w-12 rounded-full bg-[#005FA3]/20 flex items-center justify-center neumorph-light"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#005FA3]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0v6"/></svg></div>
+          <div>
+            <span class="block font-semibold">Emily S. • Camp Hill</span>
+            <span class="flex items-center text-[#FFA500]">★★★★★</span>
+          </div>
+        </div>
+        <p class="italic text-gray-800">“Fast response and super professional team! They fixed our burst pipe at 1am and explained everything clearly. Highly recommend.”</p>
+      </div>
+      <!-- Review 2 -->
+      <div class="review-card neumorph p-8 rounded-xl min-w-[330px] max-w-[350px] mx-auto text-left flex flex-col gap-3 bg-white">
+        <div class="flex items-center gap-3">
+          <div class="h-12 w-12 rounded-full bg-[#FFA500]/20 flex items-center justify-center neumorph-orange"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#FFA500]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3"/></svg></div>
+          <div>
+            <span class="block font-semibold">John M. • Harrisburg</span>
+            <span class="flex items-center text-[#FFA500]">★★★★★</span>
+          </div>
+        </div>
+        <p class="italic text-gray-800">“Very friendly, fixed my water heater quickly, and pricing was transparent. I trust their work completely.”</p>
+      </div>
+      <!-- Review 3 -->
+      <div class="review-card neumorph p-8 rounded-xl min-w-[330px] max-w-[350px] mx-auto text-left flex flex-col gap-3 bg-white">
+        <div class="flex items-center gap-3">
+          <div class="h-12 w-12 rounded-full bg-[#005FA3]/20 flex items-center justify-center neumorph-light"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#005FA3]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3"/></svg></div>
+          <div>
+            <span class="block font-semibold">Patricia L. • Lemoyne</span>
+            <span class="flex items-center text-[#FFA500]">★★★★★</span>
+          </div>
+        </div>
+        <p class="italic text-gray-800">“Capital City Plumbing handles all our rental units. They’re responsive, organized, and always do a great job!”</p>
+      </div>
+      <!-- Review 4 -->
+      <div class="review-card neumorph p-8 rounded-xl min-w-[330px] max-w-[350px] mx-auto text-left flex flex-col gap-3 bg-white">
+        <div class="flex items-center gap-3">
+          <div class="h-12 w-12 rounded-full bg-[#FFA500]/20 flex items-center justify-center neumorph-orange"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#FFA500]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><circle cx="12" cy="12" r="10"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 14s1.5 2 4 0 4 0 4 0"/></svg></div>
+          <div>
+            <span class="block font-semibold">Carlos R. • Mechanicsburg</span>
+            <span class="flex items-center text-[#FFA500]">★★★★★</span>
+          </div>
+        </div>
+        <p class="italic text-gray-800">“We had an emergency in the restaurant—Capital City saved the day with almost no downtime. Impressed by their speed!”</p>
+      </div>
+      <!-- Review 5 -->
+      <div class="review-card neumorph p-8 rounded-xl min-w-[330px] max-w-[350px] mx-auto text-left flex flex-col gap-3 bg-white">
+        <div class="flex items-center gap-3">
+          <div class="h-12 w-12 rounded-full bg-[#005FA3]/20 flex items-center justify-center neumorph-light"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-[#005FA3]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><circle cx="12" cy="12" r="10"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 14s1.5 2 4 0 4 0 4 0"/></svg></div>
+          <div>
+            <span class="block font-semibold">Frank M. • Enola</span>
+            <span class="flex items-center text-[#FFA500]">★★★★★</span>
+          </div>
+        </div>
+        <p class="italic text-gray-800">“I appreciate their honesty and kindness—great technicians and fair prices for seniors!”</p>
+      </div>
+    </div>
+    <div class="flex items-center gap-2 mt-5">
+      <button id="prevReview" aria-label="Previous Review" class="w-10 h-10 flex items-center justify-center rounded-full neumorph hover:bg-[#FFA500]/20"><svg width="26" height="26" class="text-[#005FA3]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg></button>
+      <button id="nextReview" aria-label="Next Review" class="w-10 h-10 flex items-center justify-center rounded-full neumorph hover:bg-[#FFA500]/20"><svg width="26" height="26" class="text-[#005FA3]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 18l6-6-6-6"/></svg></button>
+    </div>
+  </div>
+</section>
+
+<!-- Service Area Map -->
+<section class="py-20 px-6 bg-white" id="areas">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16">
+    <!-- Stylized Map Placeholder -->
+    <div class="relative h-[340px] rounded-xl overflow-hidden neumorph-xl shadow-xl flex items-center justify-center">
+      <img src="/harrisburg-map-placeholder.png" alt="Service Area Map" class="object-cover opacity-60 absolute w-full h-full pointer-events-none">
+      <div class="absolute inset-0 flex flex-wrap items-center justify-center gap-3 ">
+        <span class="map-badge neumorph-orange">Harrisburg</span>
+        <span class="map-badge neumorph">Camp Hill</span>
+        <span class="map-badge neumorph">Lemoyne</span>
+        <span class="map-badge neumorph-orange">Mechanicsburg</span>
+        <span class="map-badge neumorph">Enola</span>
+        <span class="map-badge neumorph">Paxtang</span>
+        <span class="map-badge neumorph">Wormleysburg</span>
+      </div>
+    </div>
+    <!-- List of Service Areas -->
+    <div class="flex flex-col justify-center">
+      <h2 class="text-2xl font-extrabold text-[#005FA3] mb-4">Our Service Coverage</h2>
+      <ul class="list-disc list-inside text-lg text-gray-800 space-y-2">
+        <li>Harrisburg</li>
+        <li>Camp Hill</li>
+        <li>Lemoyne</li>
+        <li>Mechanicsburg</li>
+        <li>Enola</li>
+        <li>Paxtang</li>
+        <li>Wormleysburg</li>
+        <li>New Cumberland</li>
+        <li>Marysville</li>
+        <li>Oberlin</li>
+        <li>All surrounding suburbs</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Email Signup Callout -->
+<section class="py-12 px-6 bg-[#F5F5F5]">
+  <div class="max-w-5xl mx-auto rounded-xl neumorph-xl flex flex-col md:flex-row items-center gap-6 md:gap-12 justify-between py-10 px-6 md:px-12 shadow-lg">
+    <div class="flex-1">
+      <h3 class="text-2xl font-bold text-[#005FA3] mb-2">Stay Updated on Plumbing Tips & Special Offers</h3>
+      <p class="text-lg text-gray-700 mb-4">Sign up for our free newsletter & get exclusive seasonal discounts.</p>
+    </div>
+    <form class="flex-1 flex items-center gap-3 flex-col md:flex-row w-full max-w-lg" id="newsletterForm">
+      <input type="email" required class="newsletter-input neumorph flex-1 px-5 py-3 rounded-lg text-lg placeholder-gray-400 outline-none transition shadow-lg" placeholder="Your email address">
+      <button type="submit" class="cta-primary-btn neumorph-orange w-full md:w-auto">Sign Up</button>
+    </form>
+    <div id="newsletterSuccess" class="hidden text-green-700 text-lg font-semibold ml-2">Thank you for subscribing!</div>
+  </div>
+</section>
+
+<!-- Request Service Anchor for Hero CTA-->
+<span id="request-service"></span>
+
+<!-- Footer -->
+<footer id="contact" class="bg-[#005FA3] text-white py-12 px-6 neumorph-inset">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
+    <!-- Contact Info -->
+    <div>
+      <h4 class="text-xl font-bold mb-1">Contact Us</h4>
+      <div class="mb-2 font-light">Capital City Plumbing Solutions</div>
+      <div class="mb-2">123 Main Street<br>Harrisburg, PA 17101</div>
+      <a href="tel:1234567890" class="block my-1 underline hover:text-[#FFA500]">(123) 456-7890</a>
+      <a href="mailto:service@capitalcityplumbing.com" class="block mb-3 underline hover:text-[#FFA500]">service@capitalcityplumbing.com</a>
+      <div>Office: Mon–Fri 8am–6pm</div>
+      <div class="mt-1">Emergencies: 24/7</div>
+    </div>
+    <!-- Office Hours and Emergency -->
+    <div>
+      <h4 class="text-xl font-bold mb-1">Office Hours</h4>
+      <ul class="text-sm mb-2">
+        <li>Mon-Fri: 8:00 AM–6:00 PM</li>
+        <li>Sat: 9:00 AM–2:00 PM</li>
+        <li>Sun: Emergency Only</li>
+      </ul>
+      <p class="font-medium text-[#FFA500]">24/7 Emergency Service Available!</p>
+    </div>
+    <!-- Navigation -->
+    <div>
+      <h4 class="text-xl font-bold mb-1">Quick Links</h4>
+      <nav class="flex flex-col gap-1">
+        <a href="#" class="hover:text-[#FFA500]">Home</a>
+        <a href="#services" class="hover:text-[#FFA500]">Services</a>
+        <a href="#why-choose" class="hover:text-[#FFA500]">About Us</a>
+        <a href="#reviews" class="hover:text-[#FFA500]">Testimonials</a>
+        <a href="#areas" class="hover:text-[#FFA500]">Service Areas</a>
+        <a href="#contact" class="hover:text-[#FFA500]">Contact</a>
+        <a href="#privacy" class="hover:text-[#FFA500]">Privacy Policy</a>
+        <a href="#terms" class="hover:text-[#FFA500]">Terms of Use</a>
+      </nav>
+    </div>
+    <!-- Social Links -->
+    <div>
+      <h4 class="text-xl font-bold mb-1">Connect With Us</h4>
+      <div class="flex gap-3 mb-3">
+        <a href="#" aria-label="Facebook" class="neumorph-light rounded-full hover:bg-[#FFA500]/30 p-2"><svg fill="currentColor" class="h-6 w-6" viewBox="0 0 24 24"><path d="M18.896 2.001h-3.727c-3.147 0-5.176 2.071-5.176 5.279v2.436H6.083a.999.999 0 00-1 1v3.154a1 1 0 001 1h3.91v8.254a1 1 0 001 1h3.236a1 1 0 001-1V14.87h2.876a1 1 0 001-1v-3.117a1 1 0 00-1-1H14.23V7.86c0-.826.212-1.248 1.367-1.248h3.299a1 1 0 001-1V3.001a1 1 0 00-1-1z"/></svg></a>
+        <a href="#" aria-label="Twitter" class="neumorph-light rounded-full hover:bg-[#FFA500]/30 p-2"><svg fill="currentColor" class="h-6 w-6" viewBox="0 0 24 24"><path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.604 1.794-1.56 2.163-2.723-.949.555-2.005.959-3.127 1.184-.897-.959-2.178-1.555-3.594-1.555-2.723 0-4.928 2.206-4.928 4.926 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.099-.807-.026-1.566-.248-2.229-.616v.061c0 2.385 1.693 4.374 4.169 4.827-.413.111-.849.171-1.296.171-.317 0-.626-.03-.928-.085.627 1.956 2.444 3.377 4.593 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.396 0-.788-.024-1.175-.069 2.179 1.398 4.768 2.212 7.548 2.212 9.051 0 14.002-7.496 14.002-13.986 0-.213 0-.425-.016-.637.962-.693 1.797-1.56 2.457-2.548l-.047-.02z"/></svg></a>
+        <a href="#" aria-label="Instagram" class="neumorph-light rounded-full hover:bg-[#FFA500]/30 p-2"><svg fill="currentColor" class="h-6 w-6" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.343 3.608 1.319.975.976 1.257 2.243 1.319 3.608.058 1.267.07 1.647.07 4.851s-.012 3.584-.07 4.85c-.062 1.366-.344 2.633-1.319 3.609-.976.976-2.243 1.257-3.608 1.319-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.344-3.609-1.319-.976-.976-1.257-2.243-1.319-3.609C2.175 15.647 2.163 15.267 2.163 12.001s.012-3.584.07-4.85c.062-1.365.344-2.632 1.319-3.608.976-.976 2.243-1.257 3.609-1.319C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.741 0 8.332.014 7.053.072c-1.633.079-3.08.634-4.29 1.845C1.552 3.146.997 4.592.918 6.226.86 7.505.846 7.914.846 12c0 4.087.014 4.495.072 5.774.079 1.633.635 3.08 1.845 4.289 1.209 1.21 2.657 1.766 4.289 1.845C8.332 23.987 8.74 24 12 24s3.668-.014 4.947-.072c1.633-.079 3.08-.635 4.289-1.845 1.21-1.209 1.766-2.657 1.845-4.289.058-1.279.072-1.687.072-5.774 0-4.087-.014-4.495-.072-5.774-.079-1.634-.635-3.08-1.845-4.289C19.926 1.706 18.479 1.15 16.846 1.072 15.567 1.014 15.158 1.001 12 1.001zM12 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a3.999 3.999 0 1 1 0-7.998 3.999 3.999 0 0 1 0 7.998zm6.406-11.845a1.44 1.44 0 1 0 0 2.882 1.44 1.44 0 0 0 0-2.882z"/></svg></a>
+      </div>
+      <div class="text-xs">&copy; 2024 Capital City Plumbing Solutions. All rights reserved.</div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

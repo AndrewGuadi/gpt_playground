@@ -1,0 +1,184 @@
+1. Project Overview
+
+Overview:
+Capital City Plumbing Solutions requires a responsive, lead-generating website targeting homeowners, small business owners and property managers in Harrisburg and nearby suburbs. The site will showcase services, pricing, customer reviews, and provide a seamless online service-request form and emergency contact details.
+
+Goals:
+• Generate local plumbing leads through prominent CTAs and optimized local SEO
+• Enable customers to request service online via a simple form
+• Clearly display all services and transparent pricing
+• Showcase verified customer reviews and testimonials
+• Provide 24/7 emergency contact information
+
+Stakeholders:
+• Mike Robinson, Owner – final decision-maker, provides business context
+• Sarah Lee, Office Manager – manages customer inquiries, updates pricing/reviews
+• Technician Team (4 plumbers) – deliver services, contribute imagery/testimonials
+
+Scope:
+• Sitemap planning and content outline
+• Information architecture and customer journey mapping
+• Wireframes for key pages (Home, Services, Contact, Reviews, Service Areas)
+• Visual design guided by existing brand colors (#005FA3, #F5F5F5) and orange accents
+• Front-end development (HTML/CSS/JS) ensuring responsive/mobile-first design
+• Service-request form with email notifications
+• Embedded Google Map of service area
+• Basic CMS or form backend integration
+• QA, accessibility checks, and deployment
+
+2. Customer Personas
+
+Persona A – “Suburban Sally”
+Name: Sally Thompson
+Description: Busy mother of two who values reliability and quick fixes when home plumbing issues arise.
+Demographics: Female, 35–45, married, household income $80K–$100K, owns a single-family home in Mechanicsburg.
+Motivations: Fast response times, trustworthy technicians, clear pricing, minimal disruption to family routine.
+
+Persona B – “Property Manager Peter”
+Name: Peter Alvarez
+Description: Oversees maintenance for a portfolio of 15 rental properties across Harrisburg.
+Demographics: Male, 40–55, property management firm, budgets maintenance costs annually.
+Motivations: Efficient scheduling, volume discounts, reliable emergency support, online tracking of service requests.
+
+Persona C – “Business Owner Bob”
+Name: Bob Nguyen
+Description: Owner of a small café in Camp Hill needing new water heater installation and preventive maintenance.
+Demographics: Male, 30–50, small‐business owner, revenue $200K–$500K annually.
+Motivations: Minimize downtime, professional workmanship, clear warranties, scheduled maintenance plans.
+
+Persona D – “Emergency Emma”
+Name: Emma Patel
+Description: Homeowner facing a sudden basement leak or sump‐pump failure, seeks immediate help.
+Demographics: Female, 25–60, owns a townhouse in Lemoyne, values safety and peace of mind.
+Motivations: 24/7 availability, rapid response, clear emergency rates, technician qualifications.
+
+3. Customer Journey Maps
+
+Persona A – Suburban Sally
+• Awareness: Searches “drain cleaning near me” on Google
+• Consideration: Reviews services, pricing page, testimonials
+• Decision: Clicks “Request Service” CTA, fills form
+• Service: Technician arrives on schedule, resolves issue quickly
+• Post-Service: Receives follow-up email, prompted to leave a review
+
+Persona B – Property Manager Peter
+• Awareness: Referrals from landlord network
+• Consideration: Visits Service Areas page and volume-pricing options
+• Decision: Fills bulk‐service request form, negotiates contract
+• Service: Regularly scheduled maintenance visits
+• Post-Service: Monthly invoice, online portal to track past jobs
+
+Persona C – Business Owner Bob
+• Awareness: Local ad for water heater installation
+• Consideration: Reviews “Water Heater Installation” page and gallery
+• Decision: Calls emergency line, then books via online form
+• Service: Installation completed after hours to avoid closure
+• Post-Service: Warranty documentation, preventive plan offered
+
+Persona D – Emergency Emma
+• Awareness: Basement flood after heavy rain
+• Consideration: Clicks the prominent “Emergency Plumbing” button
+• Decision: Calls 24/7 hotline, technician en route in 30 minutes
+• Service: Leak stopped, sump pump serviced
+• Post-Service: Receives invoice and preventive tips via email
+
+4. Sitemap
+
+Pages:
+• Home
+• About Us
+• Services (overview)
+   – Drain Cleaning
+   – Leak Detection
+   – Pipe Repair
+   – Water Heater Installation
+   – Sump Pump Maintenance
+   – Emergency Services
+• Pricing
+• Service Areas
+• Reviews & Testimonials
+• Request Service (Contact)
+• Emergency Contact (sticky header button)
+• FAQ
+
+5. Deliverables
+
+Completed:
+• Project Overview
+• Customer Personas
+• Customer Journey Maps
+• Sitemap
+
+Outstanding:
+• Wireframes
+• Design Principles
+• Color Scheme
+
+6. Wireframes
+
+Home Page:
+• Hero with emergency phone number and “Request Service” button
+• Service highlights grid with icons
+• Testimonials carousel
+• Service area map
+• Footer with quick links and contact info
+
+Services Page:
+• Detail sections for each service with pricing overview
+• Accordion FAQs
+• “Book Now” CTA under each service
+
+Contact Page:
+• Interactive form (name, address, phone, service type, preferred time)
+• Embedded Google Map
+• Office hours and emergency hotline
+
+Other Pages:
+• Pricing – table of standard rates
+• Reviews – user‐generated testimonials with star ratings
+• Service Areas – list and map of towns served
+
+7. Design Principles
+
+Navigation:
+• Persistent top nav bar with logo, primary links, “Request Service” in orange
+
+Typography:
+• Sans‐serif headings (e.g., Open Sans Bold), body text (e.g., Open Sans Regular)
+• Clear hierarchy: H1-H3 sizes, 16px body copy
+
+Layout:
+• Generous white space, card‐based sections, 12-column grid
+
+Color Scheme:
+• Primary: #005FA3 (blue) for headers, links
+• Neutral: #FFFFFF/#F5F5F5 for backgrounds
+• Accent: #FFA500 (orange) for CTAs, highlights
+
+Imagery:
+• High-res photos of technicians at work, satisfied customers
+• Icon set for each service
+
+Animations & Microinteractions:
+• Button hover color shifts
+• Form field focus states
+• Testimonials fade/slide transitions
+
+Interactive Elements:
+• Service‐request form
+• Reviews slider
+• Service‐area map with hover tooltips
+
+Responsive Design:
+• Mobile‐first breakpoints at 320px, 768px, 1024px
+• Collapsible hamburger menu
+
+Footer:
+• Contact info, emergency hotline, social links, quick links, license/certification badges
+
+8. Color Scheme
+
+Primary: #005FA3 (Blue)
+Neutral: #FFFFFF (White), #F5F5F5 (Light Gray)
+Accent: #FFA500 (Bright Orange)
+Notes: Avoid red and dark green to prevent brand confusion or negative connotations.

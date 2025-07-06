@@ -1,0 +1,26 @@
+{
+  "Persona A": {
+    "Name": "Emily Stewart",
+    "Description": "Suburban homeowner balancing family life and home maintenance. Lives in a 1990s-built home with two young children and a dog.",
+    "Demographics": "Age: 35; Married; Household income: $95,000; Location: Camp Hill; Home value: $300,000",
+    "Motivations": "Fast, reliable response for emergencies; transparent, up-front pricing; user-friendly online booking; quality work that ensures safety for her children."
+  },
+  "Persona B": {
+    "Name": "David Nguyen",
+    "Description": "Owner of a small downtown café who depends on plumbing reliability to keep his business running smoothly.",
+    "Demographics": "Age: 45; Married; Household income: $120,000; Location: Harrisburg city center; Business size: 10 employees",
+    "Motivations": "Minimize business downtime; flexible scheduling (including early mornings or evenings); clear communication; emergency service guarantees."
+  },
+  "Persona C": {
+    "Name": "Paula Thompson",
+    "Description": "Professional property manager overseeing a portfolio of 25 residential units across Mechanicsburg and Lemoyne.",
+    "Demographics": "Age: 50; Single; Annual revenue from properties: $250,000; Location: Mechanicsburg; Experience: 10+ years in property management",
+    "Motivations": "Reliable maintenance partner for routine and emergency work; volume pricing or maintenance contracts; easy invoicing; rapid turnaround to keep tenants satisfied."
+  },
+  "Persona D": {
+    "Name": "Frank Miller",
+    "Description": "Retired engineer living in an older Enola home that frequently requires plumbing maintenance.",
+    "Demographics": "Age: 68; Widowed; Retirement income: $60,000/year; Location: Enola; Home age: 70 years",
+    "Motivations": "Trustworthy, courteous technicians; clear explanations of needed repairs; fair, senior-friendly pricing; preventive maintenance recommendations."
+  }
+}

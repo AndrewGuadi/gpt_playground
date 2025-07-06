@@ -1,0 +1,19 @@
+Objectives:
+- Drive qualified local leads by prominently featuring service request forms and click-to-call buttons above the fold
+- Streamline the online booking process so homeowners and property managers can schedule drain cleaning, pipe repair, or emergency service in fewer than three clicks
+- Clearly present all primary services, transparent pricing tiers, and coverage areas to build trust and reduce barriers to purchase
+- Showcase verified customer reviews and testimonials to position Capital City Plumbing Solutions as the go-to, reliable plumbing partner in Harrisburg and surrounding communities
+- Ensure 24/7 emergency contact information is always accessible via the header, sticky footer, and mobile call button
+
+Pain Points:
+- Prospects struggle to find a trusted, local plumber with transparent pricing and verified credentials
+- Visitors abandon the site when service details and costs aren’t immediately clear or easy to compare
+- Emergency situations heighten stress; users need instant access to help without hunting through multiple pages
+- On slower or mobile connections, heavy imagery and unclear navigation can frustrate users and lead to lost leads
+
+Opportunities:
+- Implement a fixed header with click-to-call and “Request Service” CTA buttons in bright orange (#FFA500) for instant visibility
+- Develop a dynamic pricing module or simple cost estimator for each service, reducing sticker-shock and calls for quotes
+- Use a rotating review carousel and service case studies with before/after imagery to demonstrate expertise and social proof
+- Integrate an interactive service area map highlighting Harrisburg, Camp Hill, Lemoyne, Mechanicsburg, Enola, etc., reinforcing local coverage
+- Optimize mobile UX with collapsible menus, sticky CTAs, and micro-interactions (e.g., confirmation animations on form submission) to boost conversions

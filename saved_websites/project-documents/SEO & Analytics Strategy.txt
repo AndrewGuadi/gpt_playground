@@ -1,0 +1,26 @@
+{
+  "Keywords": [
+    "Harrisburg plumbing services",
+    "emergency plumber Harrisburg",
+    "drain cleaning Harrisburg",
+    "leak detection Harrisburg",
+    "pipe repair Mechanicsburg",
+    "water heater installation Camp Hill",
+    "sump pump maintenance Enola",
+    "plumber near me",
+    "affordable plumbing services Harrisburg",
+    "24/7 emergency plumbing"
+  ],
+  "Metadata": "Capital City Plumbing Solutions provides expert drain cleaning, leak detection, pipe repair, water heater installation, sump pump maintenance, and emergency plumbing services for homeowners and small businesses in Harrisburg and surrounding areas. Request service online or call now for fast, reliable plumbing solutions.",
+  "Tracking Setup": "Install Google Analytics 4 via Google Tag Manager; configure event tracking for 'Request Service' form submissions, click-to-call buttons, and live chat if implemented; set up Google Search Console; implement call-tracking numbers for emergency and general inquiries; integrate heat-mapping tool (e.g., Hotjar) for UX insights.",
+  "KPIs": [
+    "Organic sessions by service page",
+    "Form submission conversion rate",
+    "Number of online service requests",
+    "Click-to-call volume",
+    "Bounce rate on landing pages",
+    "Average session duration",
+    "Keyword rankings for target terms",
+    "Goal completions (quote requests, contact clicks)"
+  ]
+}

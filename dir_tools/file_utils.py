@@ -77,3 +77,33 @@ class FileUtils:
         except Exception as e:
             print(f"Error transforming file {path}: {e}")
             return False
+
+            
+    @staticmethod
+    def read_all_documents(folder_path: str, allowed_extensions=None) -> str:
+        """
+        Recursively read all documents in a folder (and subfolders).
+        Returns a single string, with each file's path and contents.
+        Optionally restricts to certain file extensions (e.g., ['.txt', '.md', '.json']).
+        """
+        docs = []
+        if allowed_extensions is not None:
+            allowed_extensions = [ext.lower() for ext in allowed_extensions]
+        for root, _, files in os.walk(folder_path):
+            for fname in files:
+                ext = os.path.splitext(fname)[1].lower()
+                # Skip system files and filter extensions if specified
+                if fname.startswith('.') or (allowed_extensions and ext not in allowed_extensions):
+                    continue
+                fpath = os.path.join(root, fname)
+                content = FileUtils.read_file(fpath)
+                if content is not None:
+                    docs.append(f"---\n[File: {fpath}]\n{content}\n")
+        return "\n".join(docs)
+
+
+    @staticmethod
+    def get_basedirectory():
+        CURRENT_DIR = os.path.dirname(__file__)
+        BASE_DIR = os.path.dirname(CURRENT_DIR)
+        return BASE_DIR

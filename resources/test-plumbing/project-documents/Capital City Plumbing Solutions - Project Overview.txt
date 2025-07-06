@@ -1,0 +1,30 @@
+Overview:
+Capital City Plumbing Solutions is commissioning a new responsive website to strengthen its local online presence in Harrisburg and surrounding communities. The site will clearly present primary services—drain cleaning, leak detection, pipe repair, water heater installation, sump pump maintenance, and 24/7 emergency plumbing—while reflecting the company’s brand identity and making it easy for homeowners, small business owners, and property managers to request service.
+
+Goals:
+• Generate qualified local leads through prominent calls-to-action and online request forms.  
+• Allow customers to schedule or request emergency service appointments directly via the site.  
+• Showcase service offerings and transparent pricing to build trust.  
+• Feature customer reviews and testimonials to reinforce credibility.  
+• Provide clear, accessible emergency contact information 24/7.  
+
+Stakeholders:
+• Owner: Mike Robinson – final decision-maker on feature set, branding, and budget.  
+• Office Manager: Sarah Lee – primary liaison for content, pricing details, scheduling workflow.  
+• Technician Team (4 full-time plumbers) – provide technical input on service descriptions and FAQs; may supply photos and video.  
+
+Scope:
+• Information Architecture: Home, Services (individual pages for each offering), Pricing, About Us, Reviews/Testimonials, Contact & Emergency.  
+• Lead Capture: Integrated service request form with required fields for name, address, service needed, preferred date/time, and emergency checkbox.  
+• Design & Branding:  
+  – Primary Color: Blue (#005FA3)  
+  – Neutral Palette: White or light gray (#F5F5F5) backgrounds for clean, modern look  
+  – Accent Color: Bright orange (#FFA500) for buttons and call-to-action highlights  
+  – Avoid red and dark green in UI components  
+• Mobile Responsiveness: Fully adaptive layouts for smartphones and tablets.  
+• Review Integration: Embed third-party review widget or custom testimonials section.  
+• Emergency Info: Fixed header or sticky footer element with “24/7 Emergency” phone link.  
+• Service Area: Prominently display coverage in Harrisburg, Camp Hill, Lemoyne, Mechanicsburg, Enola, and nearby suburbs.  
+• CMS & Maintenance: Implement easy-to-use CMS for Sarah Lee to update pricing, add new testimonials, and post occasional blog updates.  
+• SEO & Performance: On-page SEO targeting local keywords, fast page-load times, basic analytics setup.  
+• Timeline & Deliverables: Initial design mockups, development of templates, content population, QA/testing, launch.  

@@ -1,0 +1,17 @@
+Navigation: A sticky top navigation bar featuring primary links: Home, Services (with dropdown for each service), Pricing, About Us, Reviews, Contact. Include a prominent ‘Request Service’ button in bright orange (#FFA500) and an emergency phone link in the header.
+
+Typography: Use a clean, modern sans-serif font such as Open Sans or Lato. Headings in bold weight for clear hierarchy; body text regular weight at 16px for readability. Use consistent line heights (1.5) and spacing.
+
+Layout: Grid-based, with clear sections. Hero area with full-width background image, headline, subheadline, and primary CTA button. Beneath, service highlights in card format. Use white or light gray backgrounds (#F5F5F5) to separate sections.
+
+Color Scheme: Primary color: blue (#005FA3) for headers, icons, and primary buttons. Neutral: white and light gray for backgrounds and text areas. Accent: bright orange (#FFA500) for CTAs, hover states, and key callouts. Avoid red and dark green.
+
+Imagery: High-resolution photos of technicians on the job, before/after shots, local landmarks to reinforce community focus. Use consistent color grading to harmonize with brand colors.
+
+Animations & Microinteractions: Subtle hover transitions on buttons and service cards (e.g., scale up 1.02, color fade). Smooth scroll for anchor links. Loading spinner in brand blue if needed for form submissions.
+
+Interactive Elements: Online service request form with conditional fields. Interactive map showing service area. Click-to-call phone links. Review carousel with pagination dots.
+
+Responsive Design: Mobile-first approach. Collapsible hamburger menu on small screens. Flexible grid layouts that adapt to devices. Touch-friendly buttons with adequate tap targets. Images optimized and scaled for retina displays.
+
+Footer: Dark background in #005FA3 or light gray. Include emergency phone (click-to-call), secondary navigation links, service area list, social media icons, business address, and copyright notice.

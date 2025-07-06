@@ -1,0 +1,20 @@
+Tone: Professional yet friendly and approachable; authoritative in plumbing expertise; reassuring and solution-focused; local community-oriented.
+
+Governance: Content overseen by Office Manager Sarah Lee; adherence to brand voice guidelines (blue and orange themes); legal review for service claims by Owner Mike Robinson; final approval before publishing.
+
+Publication Schedule: 
+- Blog posts: 1 per week (e.g., maintenance tips, seasonal prep). 
+- Case studies/Testimonials: 2 per month. 
+- Service spotlights: biweekly (highlight drain cleaning, water heater installs, etc.). 
+- Social media: 3 posts per week (before/after photos, quick tips, emergency reminders). 
+- Email newsletter: monthly round-up with promotions and safety reminders.
+
+Workflow:  
+1. Ideation: monthly editorial meeting with stakeholders (Mike, Sarah, lead technician).  
+2. Assignment: topics delegated to content writer and in-house technician for input.  
+3. Drafting: writer creates draft; incorporates local keywords and CTAs.  
+4. Review: Sarah Lee reviews for brand consistency; Mike Robinson signs off on technical accuracy.  
+5. SEO Optimization: add keywords, meta tags, internal links.  
+6. Scheduling: CMS calendar entry and social media scheduler.  
+7. Publication: post on website and social channels.  
+8. Promotion & Monitoring: share via email, track engagement via analytics; adjust upcoming content based on performance.

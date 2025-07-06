@@ -1,0 +1,124 @@
+/* NEUMORPHISM & CUSTOM COMPONENTS */
+.neumorph {
+  box-shadow: 4px 4px 14px #e9ecef, -4px -4px 10px #ffffff;
+  background: #fafbfc;
+  transition: box-shadow 0.18s, background 0.18s;
+}
+.neumorph-xl {
+  box-shadow: 8px 8px 35px #d0d5db, -10px -10px 30px #ffffff;
+  background: #f9fafb;
+}
+.neumorph-light {
+  box-shadow: 2px 2px 10px #e0e6ec, -2px -2px 6px #ffffff;
+  background: #f5f5f7;
+}
+.neumorph-inset {
+  box-shadow: inset 3px 3px 12px #c3c8cf, inset -4px -4px 10px #ffffff;
+}
+.neumorph-orange {
+  background: #FFA50028 !important; /* subtle overlay */
+  box-shadow: 0 7px 20px #FFB93344, 0 2px 4px #D48D0033 !important;
+}
+.service-card:hover, .why-card:hover {
+  box-shadow: 2px 7px 32px #0080ff18, -2px -7px 22px #ffbc0044;
+  background: #fff7ef !important;
+}
+.cta-primary-btn {
+  background: linear-gradient(107deg, #FFA500 80%, #FFCF64 100%);
+  color: #fff;
+  font-weight: bold;
+  border-radius: 9999px;
+  padding: 1rem 2.5rem;
+  font-size: 1.2rem;
+  letter-spacing: .04em;
+  box-shadow: 0 7px 32px #FFA50044, 0 2px 12px #005FA318;
+  transition: background .18s, box-shadow .18s, transform .12s;
+}
+.cta-primary-btn:hover, .cta-primary-btn:focus {
+  background: linear-gradient(90deg, #FFA500 70%, #FFCF64 110%);
+  color: #fff!important;
+  box-shadow: 0 17px 48px #FFA50060;
+  transform: scale(1.04);
+}
+.cta-secondary-btn {
+  background: #fff;
+  color: #005FA3;
+  font-weight: bold;
+  border-radius: 9999px;
+  padding: 1rem 2.1rem;
+  border: 2px solid #005FA3;
+  font-size: 1.07rem;
+  transition: background .2s, color .2s, border .2s, box-shadow .18s;
+  box-shadow: 2px 4px 21px #005fa310, 0px 1px 4px #FFA50018;
+}
+.cta-secondary-btn:hover, .cta-secondary-btn:focus {
+  background: #005FA3;
+  color: #fff;
+  border: 2px solid #FFA500;
+  box-shadow: 0 7px 36px #FFA50033;
+}
+.emergency-cta-btn {
+  background: #FFA500;
+  color: #fff!important;
+  font-weight: bold;
+  padding: 0.6rem 1.3rem;
+  border-radius: 9999px;
+  font-size: 1rem;
+  letter-spacing: .03em;
+  box-shadow: 2px 7px 16px #FFA50044, 0 1px 2px #005FA338;
+  transition: box-shadow .15s, background .15s, transform .1s;
+  border: none;
+}
+.emergency-cta-btn:hover {
+  background: #ffb000;
+  color: #fff!important;
+  box-shadow: 0 12px 38px #FFA50066, 0 2px 5px #005FA344;
+  transform: scale(1.05);
+}
+
+.hero-bg {
+  background: linear-gradient(105deg, #005FA3 0%, #007ad2cc 70%, #005FA344 100%), url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1500&q=80') !important;
+}
+
+.hide-scroll-bar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide-scroll-bar::-webkit-scrollbar {display: none;}
+
+.map-badge {
+  display: inline-block;
+  background: #005FA3;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 20px;
+  padding: 0.5rem 1.2rem;
+  margin: 0.24rem;
+  font-size: 1rem;
+  box-shadow: 1px 2px 8px #005fa322;
+  letter-spacing: .03em;
+  text-shadow: 1px 1.5px 5px #ffffff22;
+  filter: drop-shadow(0 3px 8px #FFA50022);
+  transition: background 0.17s, color 0.16s, box-shadow 0.14s;
+}
+.map-badge.neumorph-orange {
+  background: #FFA500;
+  color: #fff;
+}
+.newsletter-input {
+  box-shadow: 2px 3px 12px #005fa318, -2px -2px 8px #fff;
+  background: #fff;
+  font-size: 1.08rem;
+}
+/* Responsive tweaks */
+@media (max-width: 640px) {
+  .cta-primary-btn, .cta-secondary-btn {
+    font-size: 1rem;
+    padding: 0.8rem 1.4rem;
+  }
+}
+@media (min-width: 1280px) {
+  .service-card, .review-card, .why-card {
+    min-width: 340px;
+  }
+}

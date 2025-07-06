@@ -1,0 +1,25 @@
+Overview:
+Capital City Plumbing Solutions is a full-service plumbing company based in Harrisburg, PA. They specialize in drain cleaning, leak detection, pipe repair, water heater installation, sump pump maintenance, and 24/7 emergency plumbing services for homeowners, small business owners, and property managers in Harrisburg and surrounding suburbs.
+
+Goals:
+1. Generate local leads through clear calls-to-action and optimized local SEO.
+2. Enable customers to request service online via a simple form.
+3. Clearly display all services and transparent pricing.
+4. Showcase customer reviews and testimonials to build trust.
+5. Provide prominent emergency contact information accessible on every page.
+
+Stakeholders:
+- Owner: Mike Robinson – ultimate decision-maker, will approve branding and content.
+- Office Manager: Sarah Lee – point of contact for content, scheduling, and lead follow-up.
+- Technician Team (4 full-time plumbers) – may provide technical details and service photos.
+
+Scope:
+- Design and develop a responsive, mobile-first website.
+- Key pages: Home, Services (with individual service details), Pricing, About Us, Reviews/Testimonials, Contact/Request Service.
+- Feature a request service form integrated with email notifications.
+- Prominently display emergency phone number in header and footer.
+- Integrate Google Maps for service area visualization.
+- Implement on-page SEO for Harrisburg, Camp Hill, Lemoyne, Mechanicsburg, Enola, and nearby suburbs.
+- Use existing brand colors: primary blue (#005FA3), neutral white/light gray (#F5F5F5), accent bright orange (#FFA500); avoid red and dark green.
+- Ensure accessibility and fast load times.
+- Provide CMS access for Sarah Lee to update pricing, add testimonials, and post service announcements.

@@ -1,0 +1,37 @@
+Typography Scale:
+- Heading 1 (H1): 32px / 40px line-height
+- Heading 2 (H2): 24px / 32px line-height
+- Heading 3 (H3): 18px / 28px line-height
+- Body Copy: 16px / 24px line-height
+- Small Text: 14px / 20px line-height
+- Font Family: A clean, modern sans-serif (e.g., Roboto, Open Sans)
+
+Color Usage:
+- Primary Color (#005FA3):
+  • Use for headers, navigation bar background, key section backgrounds, and links
+- Neutral Colors:
+  • White (#FFFFFF) for page backgrounds, card backgrounds, and large negative space
+  • Light Gray (#F5F5F5) for subtle section backgrounds and form fields
+- Accent Color (#FFA500):
+  • Use for primary CTAs (buttons), icons, highlights, alerts, and call-outs
+- Colors to Avoid:
+  • Red and dark green should not be used to preserve brand consistency and avoid confusion with warnings/errors
+
+Logo Variations:
+- Full-Color Horizontal Lockup:
+  • Primary logo with blue text and orange accent (for white or light background)
+- Full-Color Stacked Lockup:
+  • Stacked version for square-format needs (social media avatar, favicon)
+- Monochrome Blue:
+  • Single-color blue logo for use on gray or orange backgrounds
+- Monochrome White:
+  • White logo for dark background or overlay images
+- Icon-Only Mark:
+  • An isolated pipe or droplet graphic in blue/orange for favicons and app icons
+
+Voice & Tone:
+- Professional and trustworthy: Demonstrate expertise and reliability
+- Friendly and approachable: Use conversational language, speak directly to the homeowner or property manager
+- Clear and concise: Avoid technical jargon; explain services in plain English
+- Reassuring and supportive: Emphasize emergency response, dependable service, and satisfaction guarantee
+- Local and community-focused: Highlight Harrisburg roots, neighborhood presence, and community involvement

@@ -1,0 +1,150 @@
+[
+  {
+    "document_title": "BUSINESS NAME HERE- Project Overview",
+    "details": {
+      "Overview": "",
+      "Goals": "",
+      "Stakeholders": "",
+      "Scope": ""
+    }
+  },
+  {
+    "document_title": "Customer Personas",
+    "details": {
+      "Persona A": {
+        "Name": "",
+        "Description": "",
+        "Demographics": "",
+        "Motivations": ""
+      },
+      "Persona B": {
+        "Name": "",
+        "Description": "",
+        "Demographics": "",
+        "Motivations": ""
+      },
+      "Persona C": {
+        "Name": "",
+        "Description": "",
+        "Demographics": "",
+        "Motivations": ""
+      },
+      "Persona D": {
+        "Name": "",
+        "Description": "",
+        "Demographics": "",
+        "Motivations": ""
+      }
+    }
+  },
+  {
+    "document_title": "Customer Journey Maps",
+    "details": {
+      "Persona A": "",
+      "Persona B": "",
+      "Persona C": "",
+      "Persona D": ""
+    }
+  },
+  {
+    "document_title": "Sitemap",
+    "details": {
+      "Pages": []
+    }
+  },
+  {
+    "document_title": "Deliverables",
+    "details": {
+      "Completed": [],
+      "Outstanding": []
+    }
+  },
+  {
+    "document_title": "Wireframes",
+    "details": {
+      "Home Page": "",
+      "Services Page": "",
+      "Contact Page": "",
+      "Other Pages": ""
+    }
+  },
+  {
+    "document_title": "Design Principles",
+    "details": {
+      "Navigation": "",
+      "Typography": "",
+      "Layout": "",
+      "Color Scheme": "",
+      "Imagery": "",
+      "Animations & Microinteractions": "",
+      "Interactive Elements": "",
+      "Responsive Design": "",
+      "Footer": ""
+    }
+  },
+  {
+    "document_title": "Color Scheme",
+    "details": {
+      "Primary": "",
+      "Neutral": "",
+      "Accent": "",
+      "Notes": ""
+    }
+  },
+  {
+    "document_title": "App Structure",
+    "details": {
+      "Description": ""
+    }
+  },
+  {
+    "document_title": "Optimal Structure",
+    "details": {
+      "Description": ""
+    }
+  },
+  {
+    "document_title": "Key Takeaways & UX/UI Journey",
+    "details": {
+      "Objectives": "",
+      "Pain Points": "",
+      "Opportunities": ""
+    }
+  },
+  {
+    "document_title": "SEO & Analytics Strategy",
+    "details": {
+      "Keywords": [],
+      "Metadata": "",
+      "Tracking Setup": "",
+      "KPIs": []
+    }
+  },
+  {
+    "document_title": "Content Strategy & Editorial Calendar",
+    "details": {
+      "Tone": "",
+      "Governance": "",
+      "Publication Schedule": "",
+      "Workflow": ""
+    }
+  },
+  {
+    "document_title": "Style Guide / Brand Guidelines",
+    "details": {
+      "Typography Scale": "",
+      "Color Usage": "",
+      "Logo Variations": "",
+      "Voice & Tone": ""
+    }
+  },
+  {
+    "document_title": "API Documentation",
+    "details": {
+      "Endpoints": "",
+      "Authentication": "",
+      "Rate Limits": "",
+      "Versioning": ""
+    }
+  }
+]

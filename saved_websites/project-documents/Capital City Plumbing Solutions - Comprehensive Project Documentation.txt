@@ -1,0 +1,101 @@
+1. Project Overview
+Overview: Capital City Plumbing Solutions is a locally owned plumbing contractor serving Harrisburg and surrounding communities. The new website will function as a lead-generation and customer-service platform, showcasing services, pricing, reviews, and providing 24/7 emergency contact.
+Goals: Generate local leads; enable online service requests; display service offerings and transparent pricing; highlight customer reviews; offer prominent emergency contact info.
+Stakeholders: Owner: Mike Robinson; Office Manager: Sarah Lee; Technician Team (4 plumbers).
+Scope: Design and development of a responsive, SEO‐friendly website including Home, Services, Pricing, Reviews, About, Contact/Request Service pages, plus blog and service-area details.
+
+2. Customer Personas
+Persona A:
+ Name: Suburban Homeowner
+ Description: Busy family person with general household plumbing needs.
+ Demographics: Age 35–50, married with children, homeowners in Harrisburg suburbs.
+ Motivations: Quick, reliable service; clear pricing; trustworthiness.
+
+Persona B:
+ Name: Small Business Owner
+ Description: Runs a café or retail shop; needs minimal downtime for repairs.
+ Demographics: Age 30–55, owns small commercial property in city.
+ Motivations: Fast response; minimal business interruption; professional credentials.
+
+Persona C:
+ Name: Property Manager
+ Description: Oversees multiple rental units; schedules routine maintenance and emergency repairs.
+ Demographics: Age 40–60, manages 10+ properties in Mechanicsburg/Enola.
+ Motivations: Volume discounts; consistent service quality; easy online scheduling.
+
+Persona D:
+ Name: Emergency Seeker
+ Description: Individual facing urgent leak or clog, often outside business hours.
+ Demographics: Age 25–65, any homeowner or tenant.
+ Motivations: 24/7 availability; immediate dispatch; clear emergency contact.
+
+3. Customer Journey Maps
+Persona A: Awareness (search “drain cleaning Harrisburg”) → Consideration (compare service pages, pricing) → Decision (fill request form) → Post-Service (leave review).
+Persona B: Awareness (referral or local ad) → Consideration (read service details, testimonials) → Decision (call or online booking) → Post-Service (subscribe to maintenance plan).
+Persona C: Awareness (referral/network) → Consideration (review service agreements, pricing tiers) → Decision (set up account via online portal) → Post-Service (schedule routine visits).
+Persona D: Awareness (urgent search “emergency plumber near me”) → Consideration (see 24/7 badge, phone prominent) → Decision (call immediately) → Post-Service (feedback survey).
+
+4. Sitemap
+Pages:
+• Home
+• About Us
+• Services
+  – Drain Cleaning
+  – Leak Detection
+  – Pipe Repair
+  – Water Heater Installation
+  – Sump Pump Maintenance
+  – Emergency Plumbing
+• Pricing
+• Reviews
+• Service Areas
+• Blog
+• Contact / Request Service
+• FAQs
+• Emergency Hotline (persistent in header/footer)
+
+5. Deliverables
+Completed:
+• Brand questionnaire
+• Stakeholder alignment
+• Brand colors and typography
+Outstanding:
+• Final sitemap approval
+• Wireframes
+• Visual design mockups
+• Development (HTML/CSS/JS)
+• QA & user testing
+
+6. Wireframes
+Home Page: Hero with value proposition, CTA button (Request Service), service icons, testimonials, service-area map, footer with emergency contact.
+Services Page: Grid/list of individual service sections, brief descriptions, “Learn More” links, pricing teasers, CTA to request.
+Contact Page: Embedded map, contact form (name, address, service type, preferred date), emergency phone, office hours.
+Other Pages: Pricing (detailed packages), About Us (team photos, credentials), Reviews (aggregated customer testimonials), FAQs.
+
+7. Design Principles
+Navigation: Sticky top bar with clear labels and a highlighted “Request Service” button in orange.
+Typography: Sans‐serif (e.g., Open Sans or Roboto), headings bold, body text comfortable at 16px.
+Layout: Grid and section‐based; plenty of whitespace; balanced content blocks.
+Color Scheme: Primary #005FA3; neutrals white/light gray; accent #FFA500 for CTAs.
+Imagery: Professional photos of technicians at work, satisfied customers, branded vehicles.
+Animations & Microinteractions: Button hover color shifts; form field focus states; smooth scroll.
+Interactive Elements: Online booking form with validation; click-to-call phone links.
+Responsive Design: Mobile‐first; hamburger menu on small screens; collapsing service accordions.
+Footer: Contact info, quick links, social icons, emergency hotline.
+
+8. Color Scheme
+Primary: #005FA3 (blue)
+Neutral: #FFFFFF (white), #F5F5F5 (light gray)
+Accent: #FFA500 (bright orange)
+Notes: Avoid red and dark green to maintain brand clarity and contrast.
+
+9. App Structure
+Description: Single‐page architecture using modular components for hero, services list, testimonials, and booking form. Progressive enhancement for offline viewing of FAQs and service descriptions.
+
+10. Optimal Structure
+Description: Component‐based hierarchy for reuse (e.g., ServiceCard, Testimonial, CTAButton). Headless CMS integration to allow office manager updates to blog, pricing, and team pages without developer intervention.
+
+11. Key Takeaways & UX/UI Journey
+Objectives: Streamline lead capture; present services clearly; build trust; support emergency calls.
+Pain Points: Difficulty finding reliable local plumbers; opaque pricing; slow request processes.
+Opportunities: Prominent CTAs and online booking; transparent pricing tables; trust signals (reviews, credentials); mobile-optimized emergency access.

@@ -1,0 +1,26 @@
+{
+  "Persona A": {
+    "Name": "Heather Homeowner",
+    "Description": "A busy working professional and homeowner who needs reliable plumbing services for routine maintenance and emergencies.",
+    "Demographics": "Age 30–45, married with young children, household income $80K–$120K, owns a single-family home in Harrisburg suburb.",
+    "Motivations": "Peace of mind from quick, reliable service; transparent pricing; easy online booking; 24/7 emergency support."
+  },
+  "Persona B": {
+    "Name": "Sam Smallbiz",
+    "Description": "Owner of a small cafe in Mechanicsburg who relies on plumbing to keep his business running smoothly.",
+    "Demographics": "Age 35–50, small business owner, annual revenue $150K–$300K, leases a commercial space in a busy shopping district.",
+    "Motivations": "Minimize downtime; cost-effective preventive maintenance; scheduled service windows; responsive emergency repairs."
+  },
+  "Persona C": {
+    "Name": "Paul PropertyMgr",
+    "Description": "A local property manager overseeing multiple rental units in Camp Hill and Lemoyne seeking a consistent plumbing partner.",
+    "Demographics": "Age 40–60, manages 20–50 residential units, professional background in real estate, offices in regional hub.",
+    "Motivations": "Reliable vendor relationships; streamlined online service requests; volume pricing; prompt resolution to tenant issues."
+  },
+  "Persona D": {
+    "Name": "Sylvia Senior",
+    "Description": "A retired homeowner in Enola on a fixed income who needs occasional plumbing help and values clear communication.",
+    "Demographics": "Age 60+, empty nester, annual income $40K–$60K, owns an older home requiring periodic updates.",
+    "Motivations": "Affordable rates; personable technicians; detailed explanations of work; trustworthiness and safety."
+  }
+}

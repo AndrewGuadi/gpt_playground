@@ -1,0 +1,82 @@
+1. BUSINESS NAME HERE – Project Overview
+
+Overview:
+Capital City Plumbing Solutions is a full-service plumbing contractor based in Harrisburg, PA, offering drain cleaning, leak detection, pipe repair, water heater installation, sump pump maintenance and 24/7 emergency service to homeowners, small businesses and property managers in the greater Harrisburg area.
+
+Goals:
+• Generate qualified local leads through organic and paid channels
+• Enable online service requests via web form and live chat
+• Publish clear descriptions of services and transparent pricing
+• Showcase customer reviews and testimonials
+• Provide prominent emergency contact information (phone and chat)
+
+Stakeholders:
+• Mike Robinson, Owner (vision, budget approval)
+• Sarah Lee, Office Manager (content review, operations)
+• Technician Team (4 full-time plumbers – service delivery input)
+
+Scope:
+• Responsive website design & development (desktop/mobile)
+• Service pages with descriptions, pricing guidelines, FAQs
+• Online request form integrated with scheduling system
+• Reviews/testimonials section and Google integration
+• Emergency contact banner (phone, chat widget)
+• Location pages for Harrisburg, Camp Hill, Lemoyne, Mechanicsburg, Enola
+• Basic SEO setup (local keywords, meta tags)
+• Brand styling: primary #005FA3 (blue), neutral #F5F5F5/white, accent #FFA500 (orange)
+
+2. Customer Personas
+
+Persona A:
+Name: Emily Johnson
+Description: Married homeowner in Mechanicsburg with two young children. Values reliability and quick resolution to avoid household disruption.
+Demographics: Age 35–45, married, 2 kids, household income $85K, owns single-family home.
+Motivations: Fast response, transparent pricing, background-checked plumbers, maintenance plans to prevent future issues.
+
+Persona B:
+Name: Alex Martinez
+Description: Owner of a small café in central Harrisburg. Needs minimal downtime and same-day service to keep his business running.
+Demographics: Age 30–50, small business owner, 5 employees, monthly revenue $20K–$30K.
+Motivations: Quick emergency service, flexible scheduling (off-hours), clear flat-rate pricing, business references.
+
+Persona C:
+Name: Karen Smith
+Description: Professional property manager overseeing multiple rental apartments in Enola and nearby suburbs. Seeks a reliable vendor for recurring maintenance and emergency calls.
+Demographics: Age 40–60, manages 50+ units, works for a regional property management firm.
+Motivations: Volume pricing, service contracts, detailed invoicing, vendor reliability and compliance documentation.
+
+Persona D:
+Name: Robert Williams
+Description: Retired senior homeowner in Camp Hill. Lives alone and worries about major repairs and cold showers in winter.
+Demographics: Age 65–75, retired, fixed income, long-time homeowner.
+Motivations: Trustworthy technicians, senior discounts, clear explanations, emergency availability, white-glove service.
+
+3. Customer Journey Maps
+
+Persona A – Emily Johnson:
+• Awareness: Hears running toilet overnight, searches “plumber near me” on phone.
+• Consideration: Finds Capital City Plumbing Solutions in top search, reads service page and pricing, checks Google reviews.
+• Decision: Uses online request form at 10pm for next-day appointment.
+• Service: Technician arrives on time, fixes leak, explains cause, shows warranty paperwork.
+• Post-Service: Receives follow-up email with invoice and review request; signs up for annual maintenance plan.
+
+Persona B – Alex Martinez:
+• Awareness: Café sink clogs midday, Google Ads for emergency plumbing appears.
+• Consideration: Clicks ad, lands on emergency services page, notes “same-day service” guarantee.
+• Decision: Clicks “Call Now” button, speaks to dispatcher, schedules immediate dispatch.
+• Service: Plumber arrives within 2 hours, clears clog, upsells grease trap maintenance package.
+• Post-Service: Receives invoice via email, leaves a 5-star testimonial on Google, enrolls in priority service plan.
+
+Persona C – Karen Smith:
+• Awareness: Seasonal sump pump maintenance due; searches “sump pump service” and sees local service area page.
+• Consideration: Reviews commercial maintenance contracts, downloads PDF service agreement.
+• Decision: Fills out contact form requesting quote for multiple properties.
+• Service: Office Manager Sarah Lee emails contract, schedules quarterly visits; technicians perform maintenance as agreed.
+• Post-Service: Monthly emailed report with photos and invoice; seamless billing to property management software.
+
+Persona D – Robert Williams:
+• Awareness: Water heater fails in winter, family friend recommends Capital City Plumbing Solutions.
+• Consideration: Calls emergency number, hears friendly greeting, asks about senior discount.
+• Decision: Technician arrives same day, quotes replacement cost, offers financing options.
+• Service: Installs new heater, tests system, leaves clear instructions.
+• Post-Service: Office sends printed instructions and discount certificate; Robert calls for any future needs.

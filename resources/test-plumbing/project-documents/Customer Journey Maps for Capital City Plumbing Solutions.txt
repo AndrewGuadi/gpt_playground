@@ -1,0 +1,99 @@
+Persona A: Emily Thompson, Homeowner
+Awareness
+- Trigger: Notices water stains under kitchen sink; hears dripping noises.
+- Touchpoints: Google search, Facebook community group, word-of-mouth.
+- Needs: Fast response, trustworthiness, clear pricing.
+- Pain Points: Fear of water damage, uncertainty about cost.
+
+Consideration
+- Actions: Visits website, reads service descriptions, checks ‘Emergency Plumbing Services’ page.
+- Touchpoints: Service pages, pricing guide, online chat or call feature, customer reviews.
+- Needs: Transparent pricing, proof of reliability, 24/7 availability.
+- Pain Points: Overwhelming options, unclear service scope.
+
+Decision
+- Actions: Fills out online request form or calls emergency line.
+- Touchpoints: Service request form, phone consultation.
+- Needs: Immediate scheduling, confirmation with ETA, technician credentials.
+- Pain Points: Waiting on hold, lack of confirmation.
+
+Post-Service
+- Actions: Receives work order summary, pays invoice online, receives follow-up survey.
+- Touchpoints: Email invoice, SMS/text confirmation, review request.
+- Needs: Assurance job done right, warranty info.
+- Pain Points: Difficulty leaving feedback if form is cumbersome.
+
+Persona B: John Miller, First-Time Homeowner
+Awareness
+- Trigger: Moves into new house; wants inspection and maintenance.
+- Touchpoints: Local Facebook groups, Google Ads (“plumber near me”).
+- Needs: Introductory inspection package, educational resources.
+- Pain Points: Unfamiliar with local services, budget concerns.
+
+Consideration
+- Actions: Browses ‘Services & Pricing’, reads blog posts on home maintenance.
+- Touchpoints: Blog, FAQ page, downloadable maintenance checklist.
+- Needs: Clear package deals, trustworthy brand voice.
+- Pain Points: Jargon-heavy content, hidden fees.
+
+Decision
+- Actions: Requests a “New Home Inspection” appointment online.
+- Touchpoints: Online scheduler, email confirmation.
+- Needs: Flexible appointment times, upfront cost estimate.
+- Pain Points: Scheduling conflicts, unclear cancellation policy.
+
+Post-Service
+- Actions: Reviews inspection report, books follow-up repairs, leaves positive review.
+- Touchpoints: Personalized email with service summary, review link.
+- Needs: Guidance on next steps, loyalty discount.
+- Pain Points: Overwhelming info, no incentives to return.
+
+Persona C: Susan Patel, Property Manager
+Awareness
+- Trigger: Manages multiple rental units; needs reliable vendor network.
+- Touchpoints: Industry forums, LinkedIn recommendations.
+- Needs: Vendor reliability, volume discounts.
+- Pain Points: Coordinating multiple vendors, invoice reconciliation.
+
+Consideration
+- Actions: Downloads service catalog, requests corporate account info.
+- Touchpoints: Website Service & Pricing page, downloadable PDF, email inquiry.
+- Needs: Detailed service agreements, account manager contact.
+- Pain Points: Lack of B2B-focused info, slow email responses.
+
+Decision
+- Actions: Signs service contract, adds Capital City to approved vendor list.
+- Touchpoints: PDF contract, e-signature platform.
+- Needs: Clear terms (response times, rates), SLA details.
+- Pain Points: Complex paperwork.
+
+Post-Service
+- Actions: Submits bulk work orders, reviews monthly statements, rates performance.
+- Touchpoints: Client portal, monthly emailed report.
+- Needs: Dedicated support line, streamlined billing.
+- Pain Points: Disjointed communication, manual invoice processing.
+
+Persona D: Carlos Rodriguez, Small Business Owner
+Awareness
+- Trigger: Restaurant kitchen plumbing backup; service disruption risk.
+- Touchpoints: Yelp reviews, Google Business Profile.
+- Needs: Rapid response, minimal downtime.
+- Pain Points: Lost revenue during service, health code compliance.
+
+Consideration
+- Actions: Calls business line, checks emergency service availability.
+- Touchpoints: Phone system (24/7), emergency service page.
+- Needs: Quick ETA, professional certifications.
+- Pain Points: Uncertain arrival times, unverified credentials.
+
+Decision
+- Actions: Confirms same-day service, provides payment info.
+- Touchpoints: Invoicing on-site, mobile payment options.
+- Needs: Transparent fees, upfront time estimate.
+- Pain Points: Unexpected fees, delayed invoicing.
+
+Post-Service
+- Actions: Writes Yelp review, enrolls in maintenance plan.
+- Touchpoints: Follow-up call, email newsletter with maintenance tips.
+- Needs: Preventative maintenance reminders, priority scheduling.
+- Pain Points: Forgetting to schedule next service, generic follow-ups.

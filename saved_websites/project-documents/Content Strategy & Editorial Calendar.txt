@@ -1,0 +1,38 @@
+Tone:
+- Professional and knowledgeable yet approachable and friendly
+- Trustworthy, emphasizing reliability and quick response
+- Conversational, with clear calls to action and local references to Harrisburg area
+
+Governance:
+- Content Owner: Sarah Lee (Office Manager) approves all published copy
+- Content Creators: Freelance copywriter or in-house consultant drafts blog posts and service pages
+- SEO Review: Web developer conducts keyword optimization and metadata checks before approval
+- Brand Compliance: All content must adhere to brand voice guidelines and approved color scheme
+- Revision Cycle: Draft → Internal Review (Sarah Lee) → Owner Sign-off (Mike Robinson) → Publish
+
+Publication Schedule:
+- Blog Posts: 1 post every two weeks, covering topics like seasonal plumbing maintenance, DIY tips, emergency preparedness
+- Service Spotlights: Monthly deep dives into individual services (e.g., water heater installation)
+- Customer Testimonials: Quarterly roundup of the best reviews on homepage and social channels
+- Social Media: 3 posts per week on Facebook and Instagram (mix of tips, behind-the-scenes, promotions)
+- Newsletters: Monthly email to opt-in subscribers with latest blog content, promotions, and service reminders
+
+Workflow:
+1. Ideation & Topic Selection
+   - Monthly content meeting to brainstorm topics relevant to homeowners and property managers
+2. Drafting
+   - Copywriter drafts content with targeted keywords (e.g., “Harrisburg drain cleaning”) and clear CTAs
+3. SEO & Metadata
+   - Web developer adds meta titles, descriptions, image alt text, and internal linking
+4. Internal Review
+   - Sarah Lee reviews for accuracy, tone, and local relevance; notes revisions
+5. Owner Approval
+   - Mike Robinson gives final sign-off on messaging and any promotional offers
+6. Scheduling & Publishing
+   - Schedule CMS publication and social posts; newsletter prepared in email platform
+7. Promotion & Distribution
+   - Push content via social channels, email list, and local community groups
+8. Performance Tracking
+   - Monitor engagement metrics (pageviews, click-throughs, conversion to leads); review monthly
+9. Iteration
+   - Adjust topics and timing based on analytics and seasonal demand

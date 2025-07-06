@@ -1,0 +1,59 @@
+The web application for Capital City Plumbing Solutions is organized into modular, reusable components and pages. The structure includes:
+
+1. Layout & Shell
+- Header: logo, navigation menu (Home, Services, Areas, About, Reviews, Contact, Emergency)
+- Footer: contact info, service areas list, social links, hours, secondary nav
+- Mobile Hamburger Menu: collapsible nav with quick-call button
+
+2. Core Pages & Routes
+- Home (/)
+  • Hero with service CTA buttons (Request Service, Call Now)
+  • Overview of primary services
+  • Service area coverage map
+  • Customer reviews carousel
+  • Emergency plumbing callout
+- Services (/services)
+  • List of services (drain cleaning, leak detection, etc.)
+  • Individual service cards with brief description and starting price
+  • “Learn More” links to Service Detail
+- Service Detail (/services/:slug)
+  • In-depth description, pricing tiers, FAQs
+  • Schedule appointment form
+- Service Areas (/areas)
+  • Interactive list or map of Harrisburg, Camp Hill, Lemoyne, Mechanicsburg, Enola, suburbs
+  • City-specific overview and contact link
+- About Us (/about)
+  • Company history, team bios, licenses and guarantees
+  • Photo gallery of completed jobs
+- Reviews (/reviews)
+  • Filterable testimonials, star ratings
+  • CTA to submit new review
+- Contact & Request Service (/contact)
+  • Contact form (name, address, phone, email, service needed, preferred date/time)
+  • Emergency call button (click-to-call)
+  • Office address, hours, map embed
+- Emergency Landing (/emergency)
+  • 24/7 hotline, immediate response guarantee, quick-fill form
+
+3. Shared Components
+- Buttons & CTAs (primary in blue, accent hover in orange)
+- Form Elements (inputs, selects, datepicker)
+- Modals & Toasts (confirmation, error notices)
+- Icons & Illustrations (plumbing tools, pipes)
+- Review Stars & Carousel
+- Loading Spinners & Skeletons
+
+4. Data & Integration Layers
+- CMS/API endpoint to manage services, pricing, areas, reviews
+- Form submissions via REST/GraphQL to dispatch and CRM
+- Analytics events (lead form submissions, call clicks, page views)
+
+5. Utility & Styles
+- Global styles using brand colors (#005FA3, #F5F5F5, #FFA500)
+- Responsive breakpoints for mobile/tablet/desktop
+- Theme tokens for typography, spacing, and color
+
+6. Build & Deployment
+- Static site generator or SPA framework (React/Vue) with SSR for SEO
+- CI/CD pipeline for staging and production
+- Automated tests for accessibility, forms, and navigation

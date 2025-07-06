@@ -1,0 +1,145 @@
+1. Project Overview
+
+Overview:
+• Capital City Plumbing Solutions is a locally owned plumbing company in Harrisburg, PA.
+• Offers drain cleaning, leak detection, pipe repair, water heater installation, sump pump maintenance and 24/7 emergency plumbing services.
+
+Goals:
+• Generate local leads through organic search and paid campaigns.
+• Enable customers to request service online via forms and live chat.
+• Clearly display services, pricing tiers and service areas.
+• Showcase customer reviews and trust signals.
+• Provide prominent emergency contact information for urgent calls.
+
+Stakeholders:
+• Mike Robinson (Owner)
+• Sarah Lee (Office Manager)
+• Four full-time plumbing technicians
+
+Scope:
+• Responsive, mobile-friendly website design and development.
+• Clear navigation and service breakdown.
+• Integrated lead-capture forms, click-to-call buttons and online scheduler.
+• Testimonials module and dynamic review feed.
+• Basic SEO setup for local search.
+
+2. Customer Personas
+
+Persona A: Emily the Homeowner
+Name: Emily Carlson
+Description: Busy married professional juggling work and family.
+Demographics: Age 35–45, dual-income household, owns a single-family home in Harrisburg.
+Motivations: Fast, reliable plumbing service; transparent pricing; trust and safety for her family.
+
+Persona B: Robert the Property Manager
+Name: Robert Nguyen
+Description: Manages a portfolio of 20 small rental properties in surrounding suburbs.
+Demographics: Age 40–55, male, office-based but frequently on site.
+Motivations: Quick scheduling, volume discounts, reliable contractor partnerships, minimal tenant complaints.
+
+Persona C: Maria the Small Business Owner
+Name: Maria Hernandez
+Description: Owns a local café in Mechanicsburg, dependent on functional plumbing for daily operations.
+Demographics: Age 30–50, owner-operator, open six days/week.
+Motivations: Fast turnaround to avoid business interruption, clear estimate and after-hours support.
+
+Persona D: George the Retiree
+Name: George Thompson
+Description: Recently retired, lives alone in a suburban home in Enola.
+Demographics: Age 65+, fixed income, not tech-savvy.
+Motivations: Simple phone-based booking, clear pricing, courteous service, reassurance and trust.
+
+3. Customer Journey Maps
+
+Persona A – Emily the Homeowner:
+• Awareness: Google search “Harrisburg drain cleaning”.
+• Consideration: Reviews and service pages; compares pricing.
+• Decision: Fills out online request form or clicks call button.
+• Service Delivery: Technician arrives; job completed.
+• Retention: Receives follow-up email; invited to leave a review.
+
+Persona B – Robert the Property Manager:
+• Awareness: Referral from landlord forum; visits website Service Areas page.
+• Consideration: Checks bulk-service pricing; office manager contacts company via email.
+• Decision: Signs service agreement; schedules recurring maintenance.
+• Service Delivery: On-site work; receives invoice.
+• Retention: Quarterly check-in email; loyalty discount offered.
+
+Persona C – Maria the Small Business Owner:
+• Awareness: Emergency leak after hours; finds click-to-call on mobile search.
+• Consideration: Sees 24/7 emergency service; reads quick testimonials.
+• Decision: Calls direct emergency line.
+• Service Delivery: After-hours repair; technician explains fix and costs.
+• Retention: Added to emergency maintenance plan; leaves Google review.
+
+Persona D – George the Retiree:
+• Awareness: Sees direct mail flyer with website URL and phone number.
+• Consideration: Visits website on desktop; reads About Us and Reviews.
+• Decision: Calls main line; speaks with Sarah.
+• Service Delivery: Technician arrives; provides printed invoice.
+• Retention: Receives printed maintenance reminders in mail.
+
+4. Sitemap
+
+Pages:
+• Home
+• About Us
+• Services
+    – Drain Cleaning
+    – Leak Detection
+    – Pipe Repair
+    – Water Heater Installation
+    – Sump Pump Maintenance
+    – Emergency Plumbing
+• Service Areas
+• Pricing
+• Testimonials / Reviews
+• Blog / Resources
+• Contact Us (Online Request Form)
+• 24/7 Emergency Callout
+
+5. Deliverables
+
+Completed:
+• Client questionnaire
+• Brand color palette and logo assets
+• Project Overview document
+• Customer Personas
+• Customer Journey Maps
+• Sitemap
+
+Outstanding:
+• Content writing and copy approval
+• Detailed wireframes
+• Prototype design
+• Front-end development
+• Back-end integration (forms, CMS)
+• QA testing and launch
+
+6. Wireframes
+
+Home Page:
+• Header: Logo, navigation, click-to-call button
+• Hero: Hero image, tagline, “Request Service” CTA (bright orange)
+• Services Overview: Icons with brief descriptions and “Learn More” links
+• Testimonials Slider
+• Service Areas Map
+• Footer: Contact info, social links, emergency hotline
+
+Services Page:
+• Sidebar: List of services
+• Main Content: Each service with image, description, starting price, “Get a Quote” button
+• FAQ section specific to services
+
+Contact Page:
+• Prominent emergency banner with phone number
+• Online request form: Name, address, service needed, preferred appointment
+• Office hours and location map
+• Secondary CTA: live chat link
+
+Other Pages:
+• About Us: Team photos, company story, mission statement
+• Service Areas: Interactive list/map of covered communities
+• Pricing: Tiered pricing tables
+• Blog: Articles and tips
+• FAQ: General and service-specific FAQs

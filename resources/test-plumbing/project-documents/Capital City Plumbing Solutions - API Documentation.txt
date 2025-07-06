@@ -1,0 +1,51 @@
+Endpoints:
+- GET /api/v1/services
+  • Description: Retrieve list of all plumbing services (drain cleaning, leak detection, etc.)
+  • Response: JSON array of service objects with id, name, description, price
+
+- GET /api/v1/services/{serviceId}
+  • Description: Retrieve details for a single service by ID
+  • Response: JSON service object
+
+- POST /api/v1/service-request
+  • Description: Submit a service request (online booking)
+  • Payload: { name, address, email, phone, serviceId, preferredDate, notes }
+  • Response: { requestId, status, estimatedArrival }
+
+- GET /api/v1/reviews
+  • Description: Fetch recent customer reviews/testimonials
+  • Response: JSON array of review objects with author, rating, date, text
+
+- POST /api/v1/contact
+  • Description: Send general inquiries or feedback
+  • Payload: { name, email, phone, message }
+  • Response: { ticketId, status }
+
+- GET /api/v1/emergency-contact
+  • Description: Retrieve 24/7 emergency phone number and instructions
+  • Response: { phone, instructions }
+
+
+Authentication:
+- Public endpoints (services, reviews, emergency-contact) require no auth.
+- Protected endpoints (service-request, contact) use a simple API key or reCAPTCHA for spam control.
+- Admin/dashboard endpoints (not public) secured via OAuth2 bearer tokens or JWT, scoped to roles (Office Manager, Technicians).
+
+
+Rate Limits:
+- Public API:
+  • 60 requests per minute per IP
+  • Burst up to 100 requests
+- Authenticated/Admin API:
+  • 100 requests per minute per user token
+  • 1,000 requests per hour
+- Exceeding limits returns HTTP 429 Too Many Requests with Retry-After header.
+
+
+Versioning:
+- All endpoints are prefixed with /api/v1/ to allow backward-incompatible changes in future.
+- Version increments follow semantic versioning:
+  • v1.0.0 initial public release
+  • v1.1.0 minor additions (new endpoints)
+  • v2.0.0 major overhaul (breaking changes)
+- Clients should specify Accept header with version (e.g., application/vnd.ccps.v1+json) if needed.

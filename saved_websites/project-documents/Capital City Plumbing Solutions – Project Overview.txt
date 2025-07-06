@@ -1,0 +1,24 @@
+Overview:
+Capital City Plumbing Solutions is a locally owned plumbing contractor serving homeowners, small business owners and property managers in Harrisburg, Camp Hill, Lemoyne, Mechanicsburg, Enola and nearby suburbs. They offer drain cleaning, leak detection, pipe repair, water heater installation, sump pump maintenance and 24/7 emergency plumbing services.
+
+Goals:
+• Generate local leads via organic search and paid channels
+• Enable customers to request service online 24/7
+• Clearly display services, pricing and service areas
+• Showcase customer reviews and testimonials
+• Provide prominent emergency contact information
+
+Stakeholders:
+• Owner: Mike Robinson
+• Office Manager: Sarah Lee
+• Technician Team: 4 full-time plumbers
+
+Scope:
+• Design and development of a responsive website
+• Service and pricing pages for each primary service
+• Lead capture forms (quote requests, appointment scheduling)
+• Reviews/testimonials integration
+• Emergency contact banner and click-to-call functionality
+• Service area landing pages
+• Basic CMS for content updates and blog
+• SEO and analytics setup (Google Analytics, Search Console)
